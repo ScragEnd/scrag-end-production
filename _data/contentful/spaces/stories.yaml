@@ -1,21 +1,19 @@
 ---
-wideImageModule:
+contributors:
 - sys:
-    id: 56JawtGtMsqcI2QWYyY8SQ
-  sectionTitle: L’Immigrante-2-WideImage
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
+    id: 7CJx2kMJwcccgEAigQeeqU
+  name: Nolan Giles
+  occupation: Writer
+  type: Words
 - sys:
-    id: baCA0PRi4ouW6IuYiWcIg
-  sectionTitle: L’Immigrante-6-WideImage
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
+    id: 69eyGXQJVeeyQWq2miaWUq
+  name: Björn Rust
+  type: Photographs
 contentImageModule:
 - sys:
     id: 5hA26IKH3GUkOKIEymsSck
   sectionTitle: L’Immigrante-1-Content
+  moduleType: copyImage
   copyPosition: true
   copy: |-
     Despite initial apprehensions Otto settled in well. In swift Italian fashion he met a wife, who would bear his four sons and his family lived a fine hybrid of the Australian and Italian way. He worked hard and soon owned a tobacco farm on a decent plot of land. Yet, despite this comfortable new life, something was missing, something ingrained in Otto from the home he left behind, and something he was not ready to forget. That something was Prosecco.
@@ -33,8 +31,27 @@ contentImageModule:
     title: L’Immigrante
     url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
 - sys:
+    id: 22ICSlu89uo2SEWga8waSk
+  sectionTitle: L’Immigrante-7-Content
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Prosecco road: While combining authenticity with innovation has been essential in the success of Dal Zotto, the brand’s work in putting King Valley on the map as a unique wine growing region has been something else entirely. It was Christian who spearheaded the Prosecco Road concept, which has seen tourists arrive in droves to the remote region, dramatically boosting the profiles of the area’s smaller producers. Tourism Australia’s backing of the idea has helped this significantly, and Dal Zotto has worked closely with Government and Virgin Airlines to maximise exposure for the region.
+
+    ‘It was easy to get the other winemakers on board, because we all needed something that brought us together and allowed us to market the region together’, Christian explains.
+
+    ‘Sure we’re going to fight for the end-customer, but we all need them. It just showed that a bottle of wine can bring people together and that people were willing to have a bit of fun and do something that is not so serious in the wine industry and try and make a bit of money’.
+
+    ‘I feel that Australia as a whole has been pretty proactive in reshaping how marketing is done in the wine world.’
+
+    Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
+- sys:
     id: 52YXEu2Lf2uIwW4qAaEUQu
   sectionTitle: L’Immigrante-3-Content
+  moduleType: copyImage
   copyPosition: false
   copy: |-
     Prosecco and the King Valley: The heritage of the Prosecco wine dates back to the Roman Empire, when it was known as Pucino. Today it’s principally grown in the hills of Conegliano and Valdobbiadene in the moderate Mediterranean climate of the Veneto region of Northern Italy. In recent years the drink has outgrown its global reputation as cheap fizz, and is becoming a cool, relaxed celebratory drink, served at ritzy events in a salute to Italy’s stylish culture. It’s an uncomplicated wine, and its refreshing nature is perfect for Australian drinking conditions.
@@ -58,25 +75,9 @@ contentImageModule:
     title: L’Immigrante
     url: "//images.contentful.com/kkzerdgg97de/1uxcRkKieIgEoeyGOg0Sy0/7fb83f1ca31aef655bf417c2697aa168/side-image2.jpg"
 - sys:
-    id: 22ICSlu89uo2SEWga8waSk
-  sectionTitle: L’Immigrante-7-Content
-  copyPosition: false
-  copy: |-
-    Prosecco road: While combining authenticity with innovation has been essential in the success of Dal Zotto, the brand’s work in putting King Valley on the map as a unique wine growing region has been something else entirely. It was Christian who spearheaded the Prosecco Road concept, which has seen tourists arrive in droves to the remote region, dramatically boosting the profiles of the area’s smaller producers. Tourism Australia’s backing of the idea has helped this significantly, and Dal Zotto has worked closely with Government and Virgin Airlines to maximise exposure for the region.
-
-    ‘It was easy to get the other winemakers on board, because we all needed something that brought us together and allowed us to market the region together’, Christian explains.
-
-    ‘Sure we’re going to fight for the end-customer, but we all need them. It just showed that a bottle of wine can bring people together and that people were willing to have a bit of fun and do something that is not so serious in the wine industry and try and make a bit of money’.
-
-    ‘I feel that Australia as a whole has been pretty proactive in reshaping how marketing is done in the wine world.’
-
-    Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
-- sys:
     id: 7wNkubr7lmYMSEUUcc4W0g
   sectionTitle: L’Immigrante-5-Content
+  moduleType: copyImage
   copyPosition: true
   copy: |-
     La famiglia: Many factors were distilled into that 2004 L’Immigrante—including Otto’s refreshing Italian/Australian odyssey. However the driving passion to produce this product was really empowered by Otto’s sons Michael and Christian.
@@ -90,16 +91,6 @@ contentImageModule:
     ‘When we started selling wine, it was nice for our customers that we were a family business, but it wasn’t a reason for them to buy from us. But now restaurateurs want to deal directly with wineries, and they want to know where their product is coming from’.
 
     Today Dal Zotto is a medium sized wine producer, growing a Prosecco grape among an assortment of others including Pinot Grigio, Sangiovese and Rosé across its 45 hectares. Prosecco is still the signature product, and can be found at bottle shops across the country, mainly thanks to a distribution deal with liquor giants Dan Murphy’s. Its mass-produced Pucino Prosecco is now made in the more efficient Charmat style where the second fermentation takes place in a pressurised tank, rather than the bottle. However, the Dal Zotto’s more premium L’Immigrante Prosecco’s are still made using the Methode Champenoise, which defined the 2004 vintage. Dal Zotto has also been operating a lively cellar door on King Valley Road boasting a fine Italian restaurant for a number of years. Many of the ingredients served are handpicked from mama Elena’s meticulously kept vegetable garden. Inspired by the success of the Dal Zotto brand, in 2014, there are also a number of other growers producing Prosecco in the region.
-contributors:
-- sys:
-    id: 7CJx2kMJwcccgEAigQeeqU
-  name: Nolan Giles
-  occupation: Writer
-  type: Words
-- sys:
-    id: 69eyGXQJVeeyQWq2miaWUq
-  name: Björn Rust
-  type: Photographs
 postContainer:
 - sys:
     id: 7kIV4ctYKkck4kSCEoQU62
@@ -139,6 +130,7 @@ postContainer:
   - sys:
       id: 5hA26IKH3GUkOKIEymsSck
     sectionTitle: L’Immigrante-1-Content
+    moduleType: copyImage
     copyPosition: true
     copy: |-
       Despite initial apprehensions Otto settled in well. In swift Italian fashion he met a wife, who would bear his four sons and his family lived a fine hybrid of the Australian and Italian way. He worked hard and soon owned a tobacco farm on a decent plot of land. Yet, despite this comfortable new life, something was missing, something ingrained in Otto from the home he left behind, and something he was not ready to forget. That something was Prosecco.
@@ -158,12 +150,14 @@ postContainer:
   - sys:
       id: 56JawtGtMsqcI2QWYyY8SQ
     sectionTitle: L’Immigrante-2-WideImage
+    moduleType: wideImage
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
   - sys:
       id: 52YXEu2Lf2uIwW4qAaEUQu
     sectionTitle: L’Immigrante-3-Content
+    moduleType: copyImage
     copyPosition: false
     copy: |-
       Prosecco and the King Valley: The heritage of the Prosecco wine dates back to the Roman Empire, when it was known as Pucino. Today it’s principally grown in the hills of Conegliano and Valdobbiadene in the moderate Mediterranean climate of the Veneto region of Northern Italy. In recent years the drink has outgrown its global reputation as cheap fizz, and is becoming a cool, relaxed celebratory drink, served at ritzy events in a salute to Italy’s stylish culture. It’s an uncomplicated wine, and its refreshing nature is perfect for Australian drinking conditions.
@@ -189,11 +183,13 @@ postContainer:
   - sys:
       id: 2vS57zb1SgY8eGOyuQ062a
     sectionTitle: L’Immigrante-4-Quote
+    moduleType: quote
     quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
       Otto says, only half-joking.
   - sys:
       id: 7wNkubr7lmYMSEUUcc4W0g
     sectionTitle: L’Immigrante-5-Content
+    moduleType: copyImage
     copyPosition: true
     copy: |-
       La famiglia: Many factors were distilled into that 2004 L’Immigrante—including Otto’s refreshing Italian/Australian odyssey. However the driving passion to produce this product was really empowered by Otto’s sons Michael and Christian.
@@ -210,12 +206,14 @@ postContainer:
   - sys:
       id: baCA0PRi4ouW6IuYiWcIg
     sectionTitle: L’Immigrante-6-WideImage
+    moduleType: wideImage
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
   - sys:
       id: 22ICSlu89uo2SEWga8waSk
     sectionTitle: L’Immigrante-7-Content
+    moduleType: copyImage
     copyPosition: false
     copy: |-
       Prosecco road: While combining authenticity with innovation has been essential in the success of Dal Zotto, the brand’s work in putting King Valley on the map as a unique wine growing region has been something else entirely. It was Christian who spearheaded the Prosecco Road concept, which has seen tourists arrive in droves to the remote region, dramatically boosting the profiles of the area’s smaller producers. Tourism Australia’s backing of the idea has helped this significantly, and Dal Zotto has worked closely with Government and Virgin Airlines to maximise exposure for the region.
@@ -230,9 +228,25 @@ postContainer:
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
+wideImageModule:
+- sys:
+    id: baCA0PRi4ouW6IuYiWcIg
+  sectionTitle: L’Immigrante-6-WideImage
+  moduleType: wideImage
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
+- sys:
+    id: 56JawtGtMsqcI2QWYyY8SQ
+  sectionTitle: L’Immigrante-2-WideImage
+  moduleType: wideImage
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
 quoteModule:
 - sys:
     id: 2vS57zb1SgY8eGOyuQ062a
   sectionTitle: L’Immigrante-4-Quote
+  moduleType: quote
   quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
     Otto says, only half-joking.

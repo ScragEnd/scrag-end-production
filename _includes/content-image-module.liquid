@@ -1,22 +1,18 @@
 <section class="container content-image-block vertical-spaced">
   <div class="row">
-    <div class="content-image-block-inner content-image-block-inner--{{ module.position }}">
+    <div class="content-image-block-inner content-image-block-inner--{{ module.copyPosition }}">
       <div class="copy-block col-sm-7 col-md-6 col-lg-6">
         {{ module.copy | markdownify}}
       </div>
 
       {% if module.image%}
-
-        <div class="image-block image-block--{{ module.image.position }} col-sm-5 col-md-6 col-lg-5 animation-set animated animated--no-slide-up">
-          <img src="/assets/images/content/{{ module.image.src }}" alt="{{ module.image.alt}}" />
+        <div class="image-block image-block--{{ module.copyPosition }} col-sm-5 col-md-6 col-lg-5 animation-set animated animated--no-slide-up">
+          <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" />
           {% if module.image.caption %}
             <p class="caption">{{ module.image.caption }}</p>
           {% endif %}
         </div>
-
       {% endif %}
-
-
 
     </div>
   </div>
