@@ -41,6 +41,14 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 });
 
 /**
+ * Fetch Contentful Data
+ */
+gulp.task('contentful', function(done){
+  return cp.spawn( jekyll , ['contentful'], {stdio: 'inherit'})
+      .on('close', done);
+});
+
+/**
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
@@ -102,8 +110,8 @@ gulp.task('compress', ['jekyll-build', 'sass'], function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
-gulp.task('build', ['jekyll-build', 'sass', 'compress']);
+gulp.task('default', ['contentful', 'browser-sync', 'watch']);
+gulp.task('build', ['contentful', 'jekyll-build', 'sass', 'compress']);
 
 /**
  * Deploy to Github Pages task, build the site and deploys

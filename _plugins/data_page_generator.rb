@@ -119,7 +119,7 @@ module Jekyll
     def datapage_url(input, dir)
       @gen_dir = Jekyll.configuration({})['page_gen-dirs']
       if @gen_dir then
-        dir + "/" + sanitize_filename(input) + "/index.html"
+        "/" + dir + "/" + sanitize_filename(input)
       else
         dir + "/" + sanitize_filename(input) + ".html"
       end

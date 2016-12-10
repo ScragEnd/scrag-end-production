@@ -1,53 +1,15 @@
 ---
 contributors:
 - sys:
+    id: 69eyGXQJVeeyQWq2miaWUq
+  name: Björn Rust
+  type: Photographs
+- sys:
     id: 7CJx2kMJwcccgEAigQeeqU
   name: Nolan Giles
   occupation: Writer
   type: Words
-- sys:
-    id: 69eyGXQJVeeyQWq2miaWUq
-  name: Björn Rust
-  type: Photographs
 contentImageModule:
-- sys:
-    id: 5hA26IKH3GUkOKIEymsSck
-  sectionTitle: L’Immigrante-1-Content
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    Despite initial apprehensions Otto settled in well. In swift Italian fashion he met a wife, who would bear his four sons and his family lived a fine hybrid of the Australian and Italian way. He worked hard and soon owned a tobacco farm on a decent plot of land. Yet, despite this comfortable new life, something was missing, something ingrained in Otto from the home he left behind, and something he was not ready to forget. That something was Prosecco.
-
-    ‘I grew up with Prosecco,’ explains Otto.
-
-    47 years after his arrival, he is surveying his grape vines, which stretch out across the countryside before his family estate.
-
-    ‘I had my first taste when I was four years old,’ he continues.
-
-    ‘There’d always be a bottle of Prosecco on the table, it was very important. When we decided we wanted to make wine instead of growing tobacco my sons asked me what I wanted to do and the answer was easy—I wanted to grow Prosecco.’
-
-    ‘In those days, you couldn’t find a decent Prosecco here in Australia, unless you were spending $100 a bottle. The cheaper Italian Prosecco was very bitter, with high acidity. I kept dreaming that I’d find something better, but nothing came along.’
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
-- sys:
-    id: 22ICSlu89uo2SEWga8waSk
-  sectionTitle: L’Immigrante-7-Content
-  moduleType: copyImage
-  copyPosition: false
-  copy: |-
-    Prosecco road: While combining authenticity with innovation has been essential in the success of Dal Zotto, the brand’s work in putting King Valley on the map as a unique wine growing region has been something else entirely. It was Christian who spearheaded the Prosecco Road concept, which has seen tourists arrive in droves to the remote region, dramatically boosting the profiles of the area’s smaller producers. Tourism Australia’s backing of the idea has helped this significantly, and Dal Zotto has worked closely with Government and Virgin Airlines to maximise exposure for the region.
-
-    ‘It was easy to get the other winemakers on board, because we all needed something that brought us together and allowed us to market the region together’, Christian explains.
-
-    ‘Sure we’re going to fight for the end-customer, but we all need them. It just showed that a bottle of wine can bring people together and that people were willing to have a bit of fun and do something that is not so serious in the wine industry and try and make a bit of money’.
-
-    ‘I feel that Australia as a whole has been pretty proactive in reshaping how marketing is done in the wine world.’
-
-    Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
 - sys:
     id: 52YXEu2Lf2uIwW4qAaEUQu
   sectionTitle: L’Immigrante-3-Content
@@ -74,6 +36,49 @@ contentImageModule:
   image:
     title: L’Immigrante
     url: "//images.contentful.com/kkzerdgg97de/1uxcRkKieIgEoeyGOg0Sy0/7fb83f1ca31aef655bf417c2697aa168/side-image2.jpg"
+- sys:
+    id: 22ICSlu89uo2SEWga8waSk
+  sectionTitle: L’Immigrante-7-Content
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Prosecco road: While combining authenticity with innovation has been essential in the success of Dal Zotto, the brand’s work in putting King Valley on the map as a unique wine growing region has been something else entirely. It was Christian who spearheaded the Prosecco Road concept, which has seen tourists arrive in droves to the remote region, dramatically boosting the profiles of the area’s smaller producers. Tourism Australia’s backing of the idea has helped this significantly, and Dal Zotto has worked closely with Government and Virgin Airlines to maximise exposure for the region.
+
+    ‘It was easy to get the other winemakers on board, because we all needed something that brought us together and allowed us to market the region together’, Christian explains.
+
+    ‘Sure we’re going to fight for the end-customer, but we all need them. It just showed that a bottle of wine can bring people together and that people were willing to have a bit of fun and do something that is not so serious in the wine industry and try and make a bit of money’.
+
+    ‘I feel that Australia as a whole has been pretty proactive in reshaping how marketing is done in the wine world.’
+
+    Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
+- sys:
+    id: 5hA26IKH3GUkOKIEymsSck
+  sectionTitle: L’Immigrante-1-Content
+  moduleType: copyImage
+  copyPosition: true
+  copy: |-
+    Despite initial apprehensions Otto settled in well. In swift Italian fashion he met a wife, who would bear his four sons and his family lived a fine hybrid of the Australian and Italian way. He worked hard and soon owned a tobacco farm on a decent plot of land. Yet, despite this comfortable new life, something was missing, something ingrained in Otto from the home he left behind, and something he was not ready to forget. That something was Prosecco.
+
+    ‘I grew up with Prosecco,’ explains Otto.
+
+    47 years after his arrival, he is surveying his grape vines, which stretch out across the countryside before his family estate.
+
+    ‘I had my first taste when I was four years old,’ he continues.
+
+    ‘There’d always be a bottle of Prosecco on the table, it was very important. When we decided we wanted to make wine instead of growing tobacco my sons asked me what I wanted to do and the answer was easy—I wanted to grow Prosecco.’
+
+    ‘In those days, you couldn’t find a decent Prosecco here in Australia, unless you were spending $100 a bottle. The cheaper Italian Prosecco was very bitter, with high acidity. I kept dreaming that I’d find something better, but nothing came along.’
+  supportingCopy: __Betterfish:__ An initiative to halt the falsification of ‘seafood
+    sustainability’. A platform for discussion between chefs and suppliers that aims
+    to encourage the supply and popularity of local fish species. Richard Webb is
+    championing the discovery of local products for everyday citizens by, in his words,
+    ‘making them eat new fish’.
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
 - sys:
     id: 7wNkubr7lmYMSEUUcc4W0g
   sectionTitle: L’Immigrante-5-Content
@@ -144,6 +149,11 @@ postContainer:
       ‘There’d always be a bottle of Prosecco on the table, it was very important. When we decided we wanted to make wine instead of growing tobacco my sons asked me what I wanted to do and the answer was easy—I wanted to grow Prosecco.’
 
       ‘In those days, you couldn’t find a decent Prosecco here in Australia, unless you were spending $100 a bottle. The cheaper Italian Prosecco was very bitter, with high acidity. I kept dreaming that I’d find something better, but nothing came along.’
+    supportingCopy: __Betterfish:__ An initiative to halt the falsification of ‘seafood
+      sustainability’. A platform for discussion between chefs and suppliers that
+      aims to encourage the supply and popularity of local fish species. Richard Webb
+      is championing the discovery of local products for everyday citizens by, in
+      his words, ‘making them eat new fish’.
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
@@ -228,6 +238,17 @@ postContainer:
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
+- sys:
+    id: 1viwiMvzJyQ2gSUmuOu0aC
+  title: Another test article
+  leadParagraph: Here is some text
+quoteModule:
+- sys:
+    id: 2vS57zb1SgY8eGOyuQ062a
+  sectionTitle: L’Immigrante-4-Quote
+  moduleType: quote
+  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
+    Otto says, only half-joking.
 wideImageModule:
 - sys:
     id: baCA0PRi4ouW6IuYiWcIg
@@ -243,10 +264,3 @@ wideImageModule:
   image:
     title: L’Immigrante
     url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
-quoteModule:
-- sys:
-    id: 2vS57zb1SgY8eGOyuQ062a
-  sectionTitle: L’Immigrante-4-Quote
-  moduleType: quote
-  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
-    Otto says, only half-joking.

@@ -5,14 +5,28 @@
         {{ module.copy | markdownify}}
       </div>
 
-      {% if module.image%}
-        <div class="image-block image-block--{{ module.copyPosition }} col-sm-5 col-md-6 col-lg-5 animation-set animated animated--no-slide-up">
-          <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" />
-          {% if module.image.caption %}
-            <p class="caption">{{ module.image.caption }}</p>
-          {% endif %}
+      <div class="side-area col-sm-5 col-md-6 col-lg-5">
+        {% if module.image%}
+          <div class="image-block image-block--{{ module.copyPosition }}  animation-set animated animated--no-slide-up">
+            <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" />
+            {% if module.image.caption %}
+              <p class="caption">{{ module.image.caption }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if module.supportingCopy%}
+
+        <div class="support-block">
+          <div class="support-block-inner">
+            {{ module.supportingCopy | markdownify}}
+          </div>
         </div>
-      {% endif %}
+
+        {% endif %}
+
+      </div>
+
 
     </div>
   </div>

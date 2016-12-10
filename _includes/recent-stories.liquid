@@ -11,21 +11,34 @@
     </div>
     <div class="stories-grid has-2-columns row">
 
-      {% for story in site.stories %}
+      {% for story in site.data.contentful.spaces.stories.postContainer %}
         <figure class="article-component col-md-6">
           <div class="image-container">
-            <a href="{{ story.url }}">
-              <img src="/assets/images/content/{{ story.thumbnail }}" alt="" />
+            <a href="{{ story.title | datapage_url: 'stories' }}">
+              <img src="https:{{story.thumbnail.url}}" alt="{{ story.thumbnail.title}}" />
             </a>
           </div>
           <div class="article-info">
             <div class="header">
-              <a href="{{ story.url }}"><h3>{{ story.title }}</h3></a>
-              <span class="meta">Issue {{ story.issue | capitalize }} — {{ story.contributors[0].name }} — {{ story.read-time }} minute read</span>
+              <a href="{{ story.title | datapage_url: 'stories' }}"><h3>{{ story.title }}</h3></a>
+              <span class="meta">Issue {{ story.issue | capitalize }} —
+
+                  {% assign contribID = story.contributors[0].sys.id  %}
+                  {% for contributor in site.data.contentful.spaces.stories.contributors %}
+
+                    {% if contributor.sys.id ==  contribID %}
+                      <span>
+                        {{ contributor.name }}
+                      </span>
+                    {% endif %}
+
+                  {% endfor %}
+
+                 — {{ story.readTime }} minute read</span>
             </div>
             <div class="excerpt">
               <p class="small">{{ story.excerpt }}</p>
-              <a href="{{ story.url }}" class="secondary-link">Continue reading</a>
+              <a href="{{ story.title | datapage_url: 'stories' }}" class="secondary-link">Continue reading</a>
             </div>
           </div>
         </figure>
