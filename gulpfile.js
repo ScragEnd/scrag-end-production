@@ -10,7 +10,6 @@ var cssmin      = require('gulp-cssmin');
 var htmlmin     = require('gulp-htmlmin');
 var uglify      = require('gulp-uglify');
 var ghPages     = require('gulp-gh-pages');
-var contentfulData = require('contentful-data');
 
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
@@ -38,6 +37,14 @@ gulp.task('jekyll-build', function (done) {
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
+});
+
+/**
+ * Fetch Contentful Data
+ */
+gulp.task('contentful', function(done){
+  return cp.spawn( jekyll , ['contentful'], {stdio: 'inherit'})
+      .on('close', done);
 });
 
 /**
@@ -102,8 +109,8 @@ gulp.task('compress', ['jekyll-build', 'sass'], function() {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['browser-sync', 'watch']);
-gulp.task('build', ['jekyll-build', 'sass', 'compress']);
+gulp.task('default', ['contentful', 'browser-sync', 'watch']);
+gulp.task('build', ['contentful', 'jekyll-build', 'sass', 'compress']);
 
 /**
  * Deploy to Github Pages task, build the site and deploys

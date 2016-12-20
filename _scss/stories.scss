@@ -388,6 +388,54 @@ section.next-story {
   }
 }
 
-.next-article-container > figure > div.article-info {
-  height: 100%;
+
+.next-article-container > figure > div.article-info {height: 100%;}
+
+
+//Fixed Story Footer
+
+.story-footer {
+  position: fixed;
+  bottom: 0;
+  height: 64px;
+  width: 100%;
+  z-index: 20000;
+  background: white;
+}
+
+progress {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #EAEAEA;
+}
+
+progress::-webkit-progress-value {
+  background-color: $black;
+}
+
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: .25em;
+  display: block;
+}
+
+.progress-bar {
+  background-color: red;
+  width: 50%;
+  display: block;
+  height: inherit;
 }

@@ -3,9 +3,9 @@
     <div class="article-container animation-set">
       <ul class="article-title-container animation-set">
 
-        {% for story in site.stories limit:4 %}
-          {% if story.homepage-feature == true %}
-            <li><a href="{{ story.url }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
+        {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
+          {% if story.homepageFeature == true %}
+            <li><a href="{{ story.title | datapage_url: 'stories' }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
           {% endif %}
         {% endfor %}
 
@@ -16,18 +16,18 @@
   <div class="article-image-panel">
     <div class="article-images-container">
 
-      {% for story in site.stories limit:4 %}
-        {% if story.homepage-feature == true %}
-          <div class="single-article-image {{ story.title | slugify }}" style="background-image: url('/assets/images/content/{{ story.feature-image.src }}')"></div>
+      {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
+        {% if story.homepageFeature == true %}
+          <div class="single-article-image {{ story.title | slugify }}" style="background-image: url('https:{{ story.featureImage.url }}')"></div>
         {% endif %}
       {% endfor %}
 
     </div>
     <div class="article-container mobile animation-set">
       <ul class="article-title-container mobile animated animated--no-slide-up" data-delay="100">
-        {% for story in site.stories limit:4 %}
-          {% if story.homepage-feature == true %}
-            <li><a href="{{ story.url }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
+        {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
+          {% if story.homepageFeature == true %}
+            <li><a href="{{ story.title | datapage_url: 'stories' }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
           {% endif %}
         {% endfor %}
       </ul>
