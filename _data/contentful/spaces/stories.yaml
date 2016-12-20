@@ -1,4 +1,14 @@
 ---
+contributors:
+- sys:
+    id: 69eyGXQJVeeyQWq2miaWUq
+  name: Björn Rust
+  type: Photographs
+- sys:
+    id: 7CJx2kMJwcccgEAigQeeqU
+  name: Nolan Giles
+  occupation: Writer
+  type: Words
 contentImageModule:
 - sys:
     id: 52YXEu2Lf2uIwW4qAaEUQu
@@ -25,6 +35,7 @@ contentImageModule:
     Otto christened the wine Dal Zotto L’Immigrante Prosecco.
   image:
     title: L’Immigrante
+    description: alt tag
     url: "//images.contentful.com/kkzerdgg97de/1uxcRkKieIgEoeyGOg0Sy0/7fb83f1ca31aef655bf417c2697aa168/side-image2.jpg"
 - sys:
     id: 22ICSlu89uo2SEWga8waSk
@@ -43,6 +54,7 @@ contentImageModule:
     Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
   image:
     title: L’Immigrante
+    description: alt tag
     url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
 - sys:
     id: 5hA26IKH3GUkOKIEymsSck
@@ -68,6 +80,7 @@ contentImageModule:
     ‘making them eat new fish’.
   image:
     title: L’Immigrante
+    description: This is where you would put a caption
     url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
 - sys:
     id: 7wNkubr7lmYMSEUUcc4W0g
@@ -86,48 +99,42 @@ contentImageModule:
     ‘When we started selling wine, it was nice for our customers that we were a family business, but it wasn’t a reason for them to buy from us. But now restaurateurs want to deal directly with wineries, and they want to know where their product is coming from’.
 
     Today Dal Zotto is a medium sized wine producer, growing a Prosecco grape among an assortment of others including Pinot Grigio, Sangiovese and Rosé across its 45 hectares. Prosecco is still the signature product, and can be found at bottle shops across the country, mainly thanks to a distribution deal with liquor giants Dan Murphy’s. Its mass-produced Pucino Prosecco is now made in the more efficient Charmat style where the second fermentation takes place in a pressurised tank, rather than the bottle. However, the Dal Zotto’s more premium L’Immigrante Prosecco’s are still made using the Methode Champenoise, which defined the 2004 vintage. Dal Zotto has also been operating a lively cellar door on King Valley Road boasting a fine Italian restaurant for a number of years. Many of the ingredients served are handpicked from mama Elena’s meticulously kept vegetable garden. Inspired by the success of the Dal Zotto brand, in 2014, there are also a number of other growers producing Prosecco in the region.
-contributors:
+wideImageModule:
 - sys:
-    id: 69eyGXQJVeeyQWq2miaWUq
-  name: Björn Rust
-  type: Photographs
+    id: baCA0PRi4ouW6IuYiWcIg
+  sectionTitle: L’Immigrante-6-WideImage
+  moduleType: wideImage
+  image:
+    title: L’Immigrante
+    description: alt tag
+    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
 - sys:
-    id: 7CJx2kMJwcccgEAigQeeqU
-  name: Nolan Giles
-  occupation: Writer
-  type: Words
-quoteModule:
-- sys:
-    id: 2vS57zb1SgY8eGOyuQ062a
-  sectionTitle: L’Immigrante-4-Quote
-  moduleType: quote
-  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
-    Otto says, only half-joking.
+    id: 56JawtGtMsqcI2QWYyY8SQ
+  sectionTitle: L’Immigrante-2-WideImage
+  moduleType: wideImage
+  image:
+    title: L’Immigrante
+    description: alt tag here
+    url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
 postContainer:
 - sys:
-    id: 22L6SavW56oOousqsa8iYM
-  title: WTFISH
-  location: Somewhere
-  leadParagraph: Words
-- sys:
-    id: 1viwiMvzJyQ2gSUmuOu0aC
-  title: Another test article
-  leadParagraph: Here is some text
-- sys:
     id: 7kIV4ctYKkck4kSCEoQU62
-  title: L’Immigrante2
+  title: Animals
   excerpt: Otto Dal Zotto flew into Australia on one of those 1960’s flights that
     stopped at ‘pretty much every country on the way’, which from Italy, was quite
     a few.
   homepageFeature: true
   thumbnail:
     title: limmigrante-thumbnail
+    description: an alt tag would go here
     url: "//images.contentful.com/kkzerdgg97de/5N7Kr7uRvGaow8GSCsIoI2/20e5d8b1f94b9daf11568796093fdbd6/thumbnail-image.jpg"
   coverImage:
     title: limmigrante-cover-image
+    description: an alt tag would go here
     url: "//images.contentful.com/kkzerdgg97de/TzZTVPFNca4Sqs8yI8Aw8/fc11f0c631fff6cffac65fc2f2526685/cover-image.jpg"
   featureImage:
     title: limmigrante-feature-image
+    description: an alt tag would go here
     url: "//images.contentful.com/kkzerdgg97de/3ehk7G4m64uOGCuaGsQI8i/61a7fb56221e3b40db43067ce75b4d5c/feature-image.jpg"
   featureImageOrientation: false
   issue: one
@@ -172,6 +179,7 @@ postContainer:
       his words, ‘making them eat new fish’.
     image:
       title: L’Immigrante
+      description: This is where you would put a caption
       url: "//images.contentful.com/kkzerdgg97de/3vbTui1vfOeYoiKUoC2Yy8/005310c4a63a5c277b8d4f8ea1ef78a4/side-image1.jpg"
   - sys:
       id: 56JawtGtMsqcI2QWYyY8SQ
@@ -179,6 +187,7 @@ postContainer:
     moduleType: wideImage
     image:
       title: L’Immigrante
+      description: alt tag here
       url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
   - sys:
       id: 52YXEu2Lf2uIwW4qAaEUQu
@@ -205,6 +214,7 @@ postContainer:
       Otto christened the wine Dal Zotto L’Immigrante Prosecco.
     image:
       title: L’Immigrante
+      description: alt tag
       url: "//images.contentful.com/kkzerdgg97de/1uxcRkKieIgEoeyGOg0Sy0/7fb83f1ca31aef655bf417c2697aa168/side-image2.jpg"
   - sys:
       id: 2vS57zb1SgY8eGOyuQ062a
@@ -235,6 +245,7 @@ postContainer:
     moduleType: wideImage
     image:
       title: L’Immigrante
+      description: alt tag
       url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
   - sys:
       id: 22ICSlu89uo2SEWga8waSk
@@ -253,6 +264,7 @@ postContainer:
       Some may see a lack of tradition as a disadvantage, but in Australia’s comparatively new wine industry it has allowed its brands to be completely innovative. In turn this allows new producers to quickly entice new consumers to its products. Dal Zotto’s success has been testament to this and Otto believes that the quality of production here rivals the world’s best. In recent years he has even battled industry bodies in Italy so he can officially use the name ‘Prosecco’ on his wine. It’s now ten years after Otto’s first bottle of L’Immigrante Prosecco was uncorked, and although he and his sons are still refining their craft, they believe they are producing a Prosecco as good as anything you’ll find back where their roots extend in the Veneto region.
     image:
       title: L’Immigrante
+      description: alt tag
       url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
   - sys:
       id: 1EXq7LHa1aiUaOUiyoIw0u
@@ -260,9 +272,18 @@ postContainer:
     moduleType: portraitImage
     portraitImages:
     - title: IMG 2336
+      description: 
       url: "//images.contentful.com/kkzerdgg97de/5aP4yCrla8oQYaeU0iygsC/06e7a2a46a01c414658bbe5eae440ff4/IMG_2336.jpg"
     - title: IMG 2368
+      description: 
       url: "//images.contentful.com/kkzerdgg97de/1D7OMUaxCcCccks48sEKGs/325e27f1f592032bd68545136cc336b0/IMG_2368.jpg"
+quoteModule:
+- sys:
+    id: 2vS57zb1SgY8eGOyuQ062a
+  sectionTitle: L’Immigrante-4-Quote
+  moduleType: quote
+  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
+    Otto says, only half-joking.
 portraitImageModule:
 - sys:
     id: 1EXq7LHa1aiUaOUiyoIw0u
@@ -270,21 +291,8 @@ portraitImageModule:
   moduleType: portraitImage
   portraitImages:
   - title: IMG 2336
+    description: 
     url: "//images.contentful.com/kkzerdgg97de/5aP4yCrla8oQYaeU0iygsC/06e7a2a46a01c414658bbe5eae440ff4/IMG_2336.jpg"
   - title: IMG 2368
+    description: 
     url: "//images.contentful.com/kkzerdgg97de/1D7OMUaxCcCccks48sEKGs/325e27f1f592032bd68545136cc336b0/IMG_2368.jpg"
-wideImageModule:
-- sys:
-    id: 56JawtGtMsqcI2QWYyY8SQ
-  sectionTitle: L’Immigrante-2-WideImage
-  moduleType: wideImage
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
-- sys:
-    id: baCA0PRi4ouW6IuYiWcIg
-  sectionTitle: L’Immigrante-6-WideImage
-  moduleType: wideImage
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
