@@ -2,11 +2,24 @@
   <progress value="0" id="progressBar">
   </progress>
   <div class="container story-footer-inner">
-    <div class="previous-article">
 
-    </div>
-    <div class="next-article">
+    {% assign current_title = page.title %}
+    {% assign pages = site.pages %}
+    {% for page in pages %}
 
-    </div>
+      {% capture page_collection %}{{ page.url | replace:'/',' ' | truncatewords: 1 | remove:'...' }}{% endcapture %}
+
+      {% if page_collection == 'stories' %}
+
+        {% if current_title == page.title %}
+          {% unless forloop.last %}
+            {% assign next = pages[forloop.index] %}
+            {{ next.url }}
+          {% endunless %}
+        {% endif %}
+
+      {% endif %}
+    {% endfor %}
+
   </div>
 </div>

@@ -10,7 +10,6 @@ var cssmin      = require('gulp-cssmin');
 var htmlmin     = require('gulp-htmlmin');
 var uglify      = require('gulp-uglify');
 var ghPages     = require('gulp-gh-pages');
-var contentfulData = require('contentful-data');
 
 
 var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';

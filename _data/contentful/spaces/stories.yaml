@@ -1,14 +1,4 @@
 ---
-contributors:
-- sys:
-    id: 69eyGXQJVeeyQWq2miaWUq
-  name: Björn Rust
-  type: Photographs
-- sys:
-    id: 7CJx2kMJwcccgEAigQeeqU
-  name: Nolan Giles
-  occupation: Writer
-  type: Words
 contentImageModule:
 - sys:
     id: 52YXEu2Lf2uIwW4qAaEUQu
@@ -96,7 +86,33 @@ contentImageModule:
     ‘When we started selling wine, it was nice for our customers that we were a family business, but it wasn’t a reason for them to buy from us. But now restaurateurs want to deal directly with wineries, and they want to know where their product is coming from’.
 
     Today Dal Zotto is a medium sized wine producer, growing a Prosecco grape among an assortment of others including Pinot Grigio, Sangiovese and Rosé across its 45 hectares. Prosecco is still the signature product, and can be found at bottle shops across the country, mainly thanks to a distribution deal with liquor giants Dan Murphy’s. Its mass-produced Pucino Prosecco is now made in the more efficient Charmat style where the second fermentation takes place in a pressurised tank, rather than the bottle. However, the Dal Zotto’s more premium L’Immigrante Prosecco’s are still made using the Methode Champenoise, which defined the 2004 vintage. Dal Zotto has also been operating a lively cellar door on King Valley Road boasting a fine Italian restaurant for a number of years. Many of the ingredients served are handpicked from mama Elena’s meticulously kept vegetable garden. Inspired by the success of the Dal Zotto brand, in 2014, there are also a number of other growers producing Prosecco in the region.
+contributors:
+- sys:
+    id: 69eyGXQJVeeyQWq2miaWUq
+  name: Björn Rust
+  type: Photographs
+- sys:
+    id: 7CJx2kMJwcccgEAigQeeqU
+  name: Nolan Giles
+  occupation: Writer
+  type: Words
+quoteModule:
+- sys:
+    id: 2vS57zb1SgY8eGOyuQ062a
+  sectionTitle: L’Immigrante-4-Quote
+  moduleType: quote
+  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
+    Otto says, only half-joking.
 postContainer:
+- sys:
+    id: 22L6SavW56oOousqsa8iYM
+  title: WTFISH
+  location: Somewhere
+  leadParagraph: Words
+- sys:
+    id: 1viwiMvzJyQ2gSUmuOu0aC
+  title: Another test article
+  leadParagraph: Here is some text
 - sys:
     id: 7kIV4ctYKkck4kSCEoQU62
   title: L’Immigrante2
@@ -238,25 +254,26 @@ postContainer:
     image:
       title: L’Immigrante
       url: "//images.contentful.com/kkzerdgg97de/2BFV9IIlNGQwAQiyGQm4gY/4773336c3136e2c090695dbc3a88221d/side-image3.jpg"
+  - sys:
+      id: 1EXq7LHa1aiUaOUiyoIw0u
+    sectionTitle: L'Immigrante Portrait
+    moduleType: portraitImage
+    portraitImages:
+    - title: IMG 2336
+      url: "//images.contentful.com/kkzerdgg97de/5aP4yCrla8oQYaeU0iygsC/06e7a2a46a01c414658bbe5eae440ff4/IMG_2336.jpg"
+    - title: IMG 2368
+      url: "//images.contentful.com/kkzerdgg97de/1D7OMUaxCcCccks48sEKGs/325e27f1f592032bd68545136cc336b0/IMG_2368.jpg"
+portraitImageModule:
 - sys:
-    id: 1viwiMvzJyQ2gSUmuOu0aC
-  title: Another test article
-  leadParagraph: Here is some text
-quoteModule:
-- sys:
-    id: 2vS57zb1SgY8eGOyuQ062a
-  sectionTitle: L’Immigrante-4-Quote
-  moduleType: quote
-  quote: We’re even helping the Prosecco from Italy now, giving it a better name,’
-    Otto says, only half-joking.
+    id: 1EXq7LHa1aiUaOUiyoIw0u
+  sectionTitle: L'Immigrante Portrait
+  moduleType: portraitImage
+  portraitImages:
+  - title: IMG 2336
+    url: "//images.contentful.com/kkzerdgg97de/5aP4yCrla8oQYaeU0iygsC/06e7a2a46a01c414658bbe5eae440ff4/IMG_2336.jpg"
+  - title: IMG 2368
+    url: "//images.contentful.com/kkzerdgg97de/1D7OMUaxCcCccks48sEKGs/325e27f1f592032bd68545136cc336b0/IMG_2368.jpg"
 wideImageModule:
-- sys:
-    id: baCA0PRi4ouW6IuYiWcIg
-  sectionTitle: L’Immigrante-6-WideImage
-  moduleType: wideImage
-  image:
-    title: L’Immigrante
-    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
 - sys:
     id: 56JawtGtMsqcI2QWYyY8SQ
   sectionTitle: L’Immigrante-2-WideImage
@@ -264,3 +281,10 @@ wideImageModule:
   image:
     title: L’Immigrante
     url: "//images.contentful.com/kkzerdgg97de/41Mguh6LrWUCMasUKEUqao/d8d01cf7fd1f6647c2db74bb16503611/wide-image1.jpg"
+- sys:
+    id: baCA0PRi4ouW6IuYiWcIg
+  sectionTitle: L’Immigrante-6-WideImage
+  moduleType: wideImage
+  image:
+    title: L’Immigrante
+    url: "//images.contentful.com/kkzerdgg97de/578fmyx02Qc2gCaEaaAM06/05bd6afc1a4abf6df7c60839de29416b/wide-image2.jpg"
