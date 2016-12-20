@@ -185,7 +185,7 @@ section.story-hero {
     }
 
     .image-block {
-      height: 100%;
+      // height: 100%;
 
       @include media("<544px") {
         margin-top: 4rem;
@@ -215,6 +215,32 @@ p.caption {
   &:before {
     content: "—";
     padding-right: .5rem;
+  }
+}
+
+//Support Module
+
+.support-block {
+  background-color: $skin;
+  position: relative;
+  padding: 3.5rem;
+  margin-top: 4rem;
+
+  .support-block-inner{
+    &:before {
+      content: "*";
+      position: absolute;
+      left: 2rem;
+      padding-top: 6px;
+    }
+  }
+
+  p {
+    font-family: "Chronicle Display A";
+    font-style: italic;
+    font-size: 0.9375rem;
+    line-height: 2;
+    margin-bottom: 0;
   }
 }
 
@@ -362,4 +388,6 @@ section.next-story {
   }
 }
 
-.next-article-container > figure > div.article-info {height: 100%;}
+.next-article-container > figure > div.article-info {
+  height: 100%;
+}

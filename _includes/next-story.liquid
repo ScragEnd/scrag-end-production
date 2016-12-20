@@ -1,4 +1,9 @@
-{% assign story = site.stories | sample %}
+{% for story in site.stories %}
+  {% unless story.title == page.title %}
+    {% assign story = story | sample %}
+  {% endunless %}
+{% endfor %}
+
 
 <section class="next-story">
   <div class="container animation-set">
@@ -16,7 +21,14 @@
         <div class="article-info">
           <div class="header">
             <a href="{{ story.url }}"><h3>{{ story.title }}</h3></a>
-            <span class="meta">Issue {{ story.issue | capitalize }} — {{ story.contributors[0].name }} — {{ story.read-time }} minute read</span>
+            <span class="meta">
+              {% if story.issue %}
+                Issue {{ story.issue | capitalize }}
+              {% else %}
+                {{ story.date-published }}
+              {% endif %}
+
+              — {{ story.contributors[0].name }} — {{ story.read-time }} minute read</span>
           </div>
           <div class="excerpt">
             <p class="small">{{ story.excerpt }}</p>
