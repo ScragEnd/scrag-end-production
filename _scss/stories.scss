@@ -24,13 +24,22 @@ section.story-hero {
   height: 100vh;
   display: flex;
 
-  @include media("<medium") {
-    height: 125vh;
+  // @include media("<medium") {
+  //   height: 125vh;
+  // }
+
+  @include media("<large") {
+    flex-direction: column;
+    padding-top: 25vh;
   }
 
   .story-hero-content {
     position: relative;
     align-self: center;
+
+    @include media("<large") {
+      margin-bottom: 80px;
+    }
   }
 
   .cover-container {
@@ -52,10 +61,13 @@ section.story-hero {
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: scroll;
+    background-color: currentColor;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
 
-    &:before {
+    &:after {
       position: absolute;
-      content:"";
+      // content:"";
       top:0;
       left:0;
       width:100%;
@@ -88,6 +100,11 @@ section.story-hero {
     right: 0;
     align-self: flex-end;
     transform: translateY(50%);
+
+    @include media("<large") {
+      transform: translateY(0%);
+      position: relative;
+    }
   }
 
   .story-info {
@@ -115,7 +132,7 @@ section.story-hero {
     background-color: currentColor;
 
     img {
-      opacity: .9;
+      opacity: 1;
       transition: opacity 1s cubic-bezier(.18,1,.25,1);
     }
 
@@ -137,7 +154,7 @@ section.story-hero {
   margin-bottom: 12rem;
 
   @include media("<small") {
-    // margin-top: 6rem;
+    margin-top: 80px;
     margin-bottom: 4rem;
   }
 

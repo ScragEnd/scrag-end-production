@@ -14,11 +14,12 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  padding: 2.75rem 3rem 1.5rem;
 
-  padding: .6rem 3rem 1.5rem;
-  padding-top: 2.75rem;
-  // padding-bottom: 2rem;
-
+  @include media("<small") {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 

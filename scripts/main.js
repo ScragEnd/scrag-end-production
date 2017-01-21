@@ -81,8 +81,10 @@ init = function(){
 
   function heroHeight() {
 		var imageHeight = $('.story-feature-image').height();
-		var viewHeight = $('.story-hero').height();
-		$('.story-hero-container').height(imageHeight + viewHeight);
+		// var innerMargin = $('story-hero-content').css("margin-top");
+		// console.log(innerMargin);
+		var viewHeight = $('.story-hero').height() ;
+		$('.story-hero-container').height(imageHeight + viewHeight + 80);
   };
 
   $(window).resize(function() {
