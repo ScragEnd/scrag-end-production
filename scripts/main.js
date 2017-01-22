@@ -66,10 +66,12 @@ init = function(){
 
   $(window).scroll(function() {
     var distanceFromTop = $(this).scrollTop();
-    if (distanceFromTop >= $('.home-hero, .story-hero').height() - 68) {
+    if (distanceFromTop >= $('.home-hero, .story-hero').height() - 55) {
         $('header').addClass('in-open');
+				$('.story-footer').addClass('active');
     } else {
         $('header').removeClass('in-open');
+				$('.story-footer').removeClass('active');
     }
   });
 

@@ -196,6 +196,22 @@ a.text-link {
 
 }
 
+a.text-link.previous {
+	padding-left: 0;
+	padding-right: 2rem;
+
+	&:before {
+		right: 0;
+		left: auto;
+	}
+}
+
+a.text-link.previous, a.text-link.next {
+	&:before {
+		top: 9px;
+	}
+}
+
 a.secondary-link {
 
 	&:before {

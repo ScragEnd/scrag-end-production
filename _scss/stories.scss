@@ -418,6 +418,25 @@ section.next-story {
   width: 100%;
   z-index: 20000;
   background: white;
+  transform: translateY(100%);
+  transition: $transition-hover-on;
+}
+
+.story-footer.active {
+  transform: translateY(0);
+  transition: $transition-hover-on;
+}
+
+.story-footer-inner {
+  height: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &:after {content: none;}
 }
 
 progress {
