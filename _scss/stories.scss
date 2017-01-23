@@ -439,6 +439,23 @@ section.next-story {
   &:after {content: none;}
 }
 
+.link-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .next {
+    margin-left: auto;
+  }
+
+  .previous {
+    margin-right: auto;
+  }
+}
+
+
+
 progress {
   position: absolute;
   top:0;

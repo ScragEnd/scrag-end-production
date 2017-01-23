@@ -2,32 +2,32 @@
   <progress value="0" id="progressBar">
   </progress>
   <div class="container story-footer-inner">
+    <div class="link-wrapper">
+      {% assign pages = site.pages %}
 
-    {% assign pages = site.pages %}
-
-    {% for story in pages %}
-      {% if story.categories contains 'story' %}
-        {% if story.url == page.url %}
-            {% assign post_index0 = forloop.index0 %}
-            {% assign post_index1 = forloop.index %}
+      {% for story in pages %}
+        {% if story.categories contains 'story' %}
+          {% if story.url == page.url %}
+              {% assign post_index0 = forloop.index0 %}
+              {% assign post_index1 = forloop.index %}
+          {% endif %}
         {% endif %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
 
-    {% for story in pages %}
-      {% if story.categories contains 'story' %}
-        {% if post_index1 == forloop.index0 %}
-            {% assign prev_post = story.url %}
-            <a href="{{ prev_post }}" class="text-link previous">Previous story</a>
+      {% for story in pages %}
+        {% if story.categories contains 'story' %}
+          {% if post_index1 == forloop.index0 %}
+              {% assign prev_post = story.url %}
+              <a href="{{ prev_post }}" class="text-link previous">Previous story</a>
+          {% endif %}
+          {% if post_index0 == forloop.index %}
+              {% assign next_post = story.url %}
+              <a href="{{ next_post }}" class="text-link next">Next story</a>
+          {% endif %}
         {% endif %}
-        {% if post_index0 == forloop.index %}
-            {% assign next_post = story.url %}
-            <a href="{{ next_post }}" class="text-link next">Next story</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
+    </div>
 
-    <!-- TODO// Have the previous link always on the left if there is only one link -->
     <!-- TODO// If no next or previous link get the first link in the loop -->
 
   </div>
