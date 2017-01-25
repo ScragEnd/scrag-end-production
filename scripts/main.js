@@ -21,6 +21,8 @@ init = function(){
 	        forceHeight: false,
           smoothScrolling: true
 	    });
+			// Init Sticky Elements
+			var sticky = new Sticky('.sticky');
 
 	} else{
 		isMobile = true;
@@ -77,10 +79,10 @@ init = function(){
 
 
 
-
-	// Fix Height of Hero on Resize and Initial Page Load
+	// Throttle Resize events
   var resizeTimer;
 
+	//Fix Hero Height on Resize
   function heroHeight() {
 		var imageHeight = $('.story-feature-image').height();
 		// var innerMargin = $('story-hero-content').css("margin-top");
@@ -89,11 +91,17 @@ init = function(){
 		$('.story-hero-container').height(imageHeight + viewHeight + 80);
   };
 
+	//Update sticky element when window resize is triggered
+	function resizeSticky() {
+		sticky.update();
+	}
+
   $(window).resize(function() {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(heroHeight, 250);
+      resizeTimer = setTimeout(heroHeight, resizeSticky, 250);
   });
 
+	//Run Hero Height fix on load
   heroHeight();
 
 

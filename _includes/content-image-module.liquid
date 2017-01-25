@@ -5,13 +5,10 @@
         {{ module.copy | markdownify}}
       </div>
 
-      <div class="side-area col-sm-5 col-md-6 col-lg-5">
+      <div class="side-area col-sm-5 col-md-6 col-lg-5" data-sticky-container>
         {% if module.image%}
           <div class="image-block image-block--{{ module.copyPosition }}  animation-set animated animated--no-slide-up">
-            <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" />
-            {% if module.image.caption %}
-              <p class="caption">{{ module.image.caption }}</p>
-            {% endif %}
+            <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" {% unless module.supportingCopy%} class="sticky" data-margin-top="120"{% endunless %} />
           </div>
         {% endif %}
 
