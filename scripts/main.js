@@ -67,7 +67,9 @@ init = function(){
 	});
 
   $(window).scroll(function() {
+		var progressBar = $('progress');
     var distanceFromTop = $(this).scrollTop();
+
     if (distanceFromTop >= $('.home-hero, .story-hero').height() - 55) {
         $('header').addClass('in-open');
 				$('.story-footer').addClass('active');
@@ -75,8 +77,19 @@ init = function(){
         $('header').removeClass('in-open');
 				$('.story-footer').removeClass('active');
     }
-  });
 
+		if ( distanceFromTop >= $('.story-hero').height() - 55) {
+			$('.story-footer').addClass('active');
+
+			if (progressBar.val() == progressBar.attr('max')) {
+				$('.story-footer').removeClass('active');
+			}
+
+    } else {
+				$('.story-footer').removeClass('active');
+    }
+
+  });
 
 
 	// Throttle Resize events
@@ -160,53 +173,63 @@ scrollAnimation = function() {
 };
 
 // Progress Indicator
-  var getMax = function(){
-    return $(document).height() - $(window).height();
-  }
+$( document ).ready(function() {
 
-  var getValue = function(){
-    return $(window).scrollTop();
-  }
+	var getMax = function(){
+		return $('.story-body').height();
+		// return $(document).height() - $(window).height();
+	}
 
-  if ('max' in document.createElement('progress')) {
-    // Browser supports progress element
-    var progressBar = $('progress');
+	var getValue = function(){
+		return $(window).scrollTop();
+	}
 
-    // Set the Max attr for the first time
-    progressBar.attr({ max: getMax() });
+	if ('max' in document.createElement('progress')) {
+		// Browser supports progress element
+		var progressBar = $('progress');
 
-    $(document).on('scroll', function(){
-      // On scroll only Value attr needs to be calculated
-      progressBar.attr({ value: getValue() });
-    });
+		// Set the Max attr for the first time
+		progressBar.attr({ max: getMax() });
 
-    $(window).resize(function(){
-      // On resize, both Max/Value attr needs to be calculated
-      progressBar.attr({ max: getMax(), value: getValue() });
-    });
+		$(document).on('scroll', function(){
+			// On scroll only Value attr needs to be calculated
+			var distanceFromTop = $(window).scrollTop();
+			var topArea = $('.story-hero-container').height();
+			if (distanceFromTop >= $('.story-hero-container').height()) {
+				progressBar.attr({ value: getValue() - topArea });
+			}
 
-  } else {
+		});
 
-    var progressBar = $('.progress-bar'),
-        max = getMax(),
-        value, width;
+		$(window).resize(function(){
+			// On resize, both Max/Value attr needs to be calculated
+			progressBar.attr({ max: getMax(), value: getValue() });
+		});
 
-    var getWidth = function() {
-      // Calculate width in percentage
-      value = getValue();
-      width = (value/max) * 100;
-      width = width + '%';
-      return width;
-    }
+	} else {
 
-    var setWidth = function(){
-      progressBar.css({ width: getWidth() });
-    }
+		var progressBar = $('.progress-bar'),
+				max = getMax(),
+				value, width;
 
-    $(document).on('scroll', setWidth);
-    $(window).on('resize', function(){
-      // Need to reset the Max attr
-      max = getMax();
-      setWidth();
-    });
-  }
+		var getWidth = function() {
+			// Calculate width in percentage
+			value = getValue();
+			width = (value/max) * 100;
+			width = width + '%';
+			return width;
+		}
+
+		var setWidth = function(){
+			progressBar.css({ width: getWidth() });
+		}
+
+		$(document).on('scroll', setWidth);
+		$(window).on('resize', function(){
+			// Need to reset the Max attr
+			max = getMax();
+			setWidth();
+		});
+
+	}
+});
