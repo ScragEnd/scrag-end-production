@@ -37,7 +37,7 @@
                  — {{ story.readTime }} minute read</span>
             </div>
             <div class="excerpt">
-              <p class="small">{{ story.excerpt }}</p>
+              <p class="small">{{ story.excerpt | truncatewords: 40 }}</p>
               <a href="{{ story.title | datapage_url: 'stories' }}" class="secondary-link">Continue reading</a>
             </div>
           </div>

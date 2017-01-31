@@ -15,7 +15,7 @@ categories: [story]
 
         <section class="story-hero {% if page.issue %}issue-{{ page.issue}} {% endif %}">
 
-          {% if page.coverImage %}
+          {% if page.coverImage.title %}
             <div class="cover-container">
               <div class="cover-image" style="background-image: url('https:{{page.coverImage.url}}')" data-bottom="transform:translate3d(0px, 0%, 0px);" data-top-bottom="transform:translate3d(0px, 15%, 0px);"></div>
             </div>
@@ -32,7 +32,7 @@ categories: [story]
                 <h4 class="byline">
 
                   {% for item in page.contributors %}
-
+                    {{ item.type }}
                     {% assign contribID = item.sys.id  %}
 
                     {% for contributor in site.data.contentful.spaces.stories.contributors %}
@@ -62,9 +62,7 @@ categories: [story]
       <section class="container story-lead">
         <div class="row">
           <div class="lead-paragraph col-lg-8 offset-lg-2">
-            <p>
-              {{ page.leadParagraph | markdownify }}
-            </p>
+              {{ page.excerpt | markdownify }}
           </div>
         </div>
       </section>
