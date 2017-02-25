@@ -1,61 +1,124 @@
 #footer{
-	background: $gray-light;
+	background: $skin;
 	padding-top: 8rem;
 	padding-bottom: 3.75rem;
 }
 
 .footer-inner {
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
 
-	.logo {
-		margin-bottom: 3rem;
-	}
+.footer-title {
+	margin-bottom: 3rem;
+}
 
-	.sub-nav {
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	.misc .logo {
 		margin-bottom: 2.5rem;
-	}
-
-	.email-link, .sub-nav {
-		font-family: 'Chronicle Display A';
-		font-weight: 300;
-		display: inline-block;
-		transition: $transition-hover-on;
-
-		&:hover {
-			color: $skin-dark;
-		}
-	}
-
-	ul.social-links {
-		list-style: none;
-		margin-bottom: 2.5rem;
-
-		li {
-			font-family: "Ideal Sans A", "Ideal Sans B", sans-serif;
-			font-style: normal;
-			font-weight: 600;
-			text-transform: uppercase;
-			font-size: .625rem;
-			display: inline-block;
-			margin-right: 1.5rem;
-
-			&:last-of-type {
-				margin-right: 0;
-			}
-
-			a {
-				transition: $transition-hover-on;
-			}
-
-			a:hover {
-				color: $skin-dark;
-			}
-
-		}
-	}
-
-	.copyright {
-		font-size: .75rem;
-		margin-top: 6.25rem;
 	}
 }
+
+.footer-details {
+	p {
+		font-family: "Chronicle Display A", "Chronicle Display B", serif;
+		font-size: 1rem;
+		margin-bottom: 0;
+		line-height: 1.5rem;
+	}
+	.category-title {
+		font-family: "Chronicle Display A", "Chronicle Display B", serif;
+		font-style: italic;
+		font-weight: 400;
+		font-size: 1rem;
+		margin-bottom: 1.125rem;
+		opacity: .6;
+
+	}
+}
+
+.category-block {
+	margin-bottom: 1.5rem;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+ul.links {
+	list-style: none;
+	flex-grow: 1;
+
+	li {
+		font-family: "Ideal Sans A", "Ideal Sans B", sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		text-transform: uppercase;
+		font-size: .625rem;
+		margin-bottom: .75rem;
+
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+
+		a {
+			transition: $transition-hover-on;
+		}
+
+		a:hover {
+			color: $skin-dark;
+		}
+
+	}
+}
+
+li.donate {
+	margin-bottom: 2.5rem !important;
+}
+
+a.top-scroll {
+	font-family: "Ideal Sans A", "Ideal Sans B", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: .625rem;
+	margin-bottom: .75rem;
+	transition: $transition-hover-on;
+
+	&:hover {
+		color: $skin-dark;
+	}
+}
+
+
+// .footer-inner {
+// 	// text-align: center;
+//
+// 	.logo {
+// 		margin-bottom: 3rem;
+// 	}
+//
+// 	.sub-nav {
+// 		margin-bottom: 2.5rem;
+// 	}
+//
+// 	.email-link, .sub-nav {
+// 		font-family: 'Chronicle Display A';
+// 		font-weight: 300;
+// 		display: inline-block;
+// 		transition: $transition-hover-on;
+//
+// 		&:hover {
+// 			color: $skin-dark;
+// 		}
+// 	}
+//
+// 	.copyright {
+// 		font-size: .75rem;
+// 		margin-top: 6.25rem;
+// 	}
+// }

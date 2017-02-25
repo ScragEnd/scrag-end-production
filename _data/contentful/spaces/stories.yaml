@@ -1,39 +1,17 @@
 ---
-contentImageModule:
+portraitImageModule:
 - sys:
-    id: 38x0qUI4YowG4yCY4GCuuM
-  sectionTitle: limmigrante-content-2
-  moduleType: copyImage
-  copyPosition: false
-  copy: |-
-    Prosecco and the King Valley: The heritage of the Prosecco wine dates back to the Roman Empire, when it was known as Pucino. Today it’s principally grown in the hills of Conegliano and Valdobbiadene in the moderate Mediterranean climate of the Veneto region of Northern Italy. In recent years the drink has outgrown its global reputation as cheap fizz, and is becoming a cool, relaxed celebratory drink, served at ritzy events in a salute to Italy’s stylish culture. It’s an uncomplicated wine, and its refreshing nature is perfect for Australian drinking conditions.
-
-    While not as mountainous, the King Valley, 250km north west of Melbourne, enjoys a similar climate to that of Veneto—frosty winters, and hot dry summers. The area’s agricultural past means the land is primed for growing, and Australian wine giants Brown Brothers began planting a range of varietals in the area in the 1970s. By the time Otto was ready to start producing, some 20 years later, the region was firmly established as wine growing country. Planting Prosecco however, hadn’t yet crossed anyone else’s mind.
-
-    ‘I was lucky enough to find a guy in South Australia, that had brought in a couple of plants of Prosecco over from Italy’, explains Otto.
-
-    ‘He wasn’t giving it to anyone, but I spoke to him on the phone, and we got chatting in our local Italian dialect of Valdobbiadene, I told him I was born in the Prosecco country, and he was nice enough to give me a few buds. We confirmed the DNA and we did bit of propagation—it took from 1999 and 2004 to get the first bottle, which we did in the Champenoise style’.
-
-    Méthode Champenoise, is a labour intensive, traditional winemaking craft, today only used commercially with Champagne’s and other high-end sparkling wines. It is however, the only viable option for a start-up with limited resources, and was the only method available to Otto in his Prosecco venture’s early days. Despite authentic intentions behind Otto’s Prosecco, it was a massive business gamble. Not only was he creating a new product in Australia, he was also backing a wine that wasn’t particularly popular. By 2004, two of Otto’s sons had left their careers behind to help create this family venture, so when it came to uncorking that first bottle, the new winemaker had a lot of pressure on his shoulders.
-
-    ‘I tell you what, we were sitting here at this table, and I was very nervous’, he recalls. ‘I was very worried about it, because we didn’t know what was going to happen, we didn’t know if it was going to be very good. The expectation was so high, and if it didn’t reach that, to me, it was going to be a failure’. ‘When we opened a bottle and tasted it I said ‘wow, thank god it’s good’ — I really went ‘wow’’.
-
-    Otto christened the wine Dal Zotto L’Immigrante Prosecco.
-  image:
-    title: limmigrante-4
+    id: 4PDyhjXIWAM6QsUKUY6uug
+  sectionTitle: vanguard_vintners-image-2up-1
+  moduleType: portraitImage
+  portraitImages:
+  - title: vanguard-vintners-9
     description: 
-    url: "//images.contentful.com/kkzerdgg97de/4C2yDTs5uwamsaIIUeaIiq/106041d0d19c4977732e4584d3640a4b/limmigrante-4.jpg"
-- sys:
-    id: Qjw7A6Wf60W22OkwqUAG2
-  sectionTitle: wtf-content-3
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    So where’s our local catch? In the case of our local mackerel I was chatting to a fisherman in the market the other day and the conversation went something like this. ‘Mate, I only send my fish to the local market if I get less than 100 kilos and it’s not worth my while sending it south; Melbourne and Sydney will pay more.’ The situation is even worse than that. If the market price crashes down there, then guess what—those fish are just as likely to get put on a truck and sent back up here to try and get a better price. The situation is ludicrous.
-
-    It’s as if we have been duped into believing our fish from nearby are somewhat under par. Mackerel is the perfect example. There is a public misconception that mackerel is a dark, oily and ‘fishy’ tasting fish. This is true if you live in Victoria or Tassie because your local blue mackerel is like that (very similar to the atlantic variety of the northern hemisphere). Mackerel from Queensland, however, (grey, school, spotted and spanish) are white fleshed and mild in taste. Sometimes these kinds of false understandings make me wonder if there is in fact some kind of conspiracy going on.
-
-    The truth is that in Queensland we have countless excellent eating fish: mackerels, wahoo, cobia, bonito, mulloway and threadfin are just a few. There are even species of mullet that are eminently suitable for even the very best of menus. By and large, however, these fish are caught by local small-scale fishermen and that usually represents a more sustainable outcome. To me our current preferences for ‘foreign’ fish represent some kind of cultural cringe where we believe our own local fish are somehow not ever as good as everyone else’s.
+    url: "//images.contentful.com/kkzerdgg97de/1qWk3A6WMYCWmKeQQeiQwc/e8186b2e01e1209b8d14b5eb81f8730f/vanguard-vintners-9.jpg"
+  - title: vanguard-vintners-1
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/5cMIyR3zMIAOMQq6ASGkwC/fdb96c0d75ee688641f442aa322da8a6/vanguard-vintners-1.jpg"
+contentImageModule:
 - sys:
     id: 6nvdROXhkcEg6WAymEE2g0
   sectionTitle: limmigrante-content-4
@@ -138,19 +116,6 @@ contentImageModule:
 
     This highly attentive, hands-on practice validates that minimal intervention doesn’t mean minimal involvement. This progressive cohort are not championing minimal intervention wine because they don’t want to be involved. Rather, it’s the opposite. They’re creating challenges for themselves that any sensible winemaker wouldn’t create for themselves. This approach is also demonstrative of how far we’ve diverged from ancient winemaking. Somewhere along the line we thought we needed to make artificial additions at both the viticulture and vinification stages to control the end product. “When we started out, the idea of not adding acid was huge; the idea of not adding sulfur was impossible; the idea of selling wine to the French was crazy. The paradigm has been smashed,” James says. It’s an anxiety-inducing experiment, where precision is applied to picking time, while ferments are left to nature’s chosen direction and a little bit of oxygen can dramatically alter a wine’s intended course. “You can control the growing to an extent, but when you’re making wine without additions, you’ve just got to guide it along. You can’t control it sometimes,” Gareth explains.
 - sys:
-    id: 3cTvborgNiGW68YmWug2qM
-  sectionTitle: vanguard_vintners-content-3
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    Anton’s natural modus operandi is to question and break rules and systems. He too received first class honours at the University of Adelaide and made wine across various levels of convention and intervention for others in Germany, New Zealand and the United States. But he returned to the hills in 2002 and started experimenting. “I learnt so much at university and I’m so thankful for what I learnt, and I understand the concept, but it didn’t sit well with me. I couldn’t really find the answers in my study. So I went about disproving all the things that I was uncomfortable with. I didn’t really do it to prove a point; I just wanted to see what was possible. Once I started doing it, there was a little bit of backlash by some people, and a little bit of a following from others. Some that thought it was great to have freedom, and some that publicly berated what I was doing.” Anton is conscious that the holistic approach to wine and lifestyle that is a common thread amongst the Basket Range motley crew may induce a perception of hippy winemakers nesting in the hills, growing their own produce and living in accordance with nature’s rhythms. But these “crazy cats”, as Gareth dubs them, are at their core scientists and philosophers, critically questioning each other’s motivations and their liquid creations.
-
-    Taras Ochota of Ochota Barrels is also classically trained, having studied oenology and worked for vineyards both locally and globally. But he’s also the punk of the gang—and it’s impossible to have a boring time when he’s around. He’s up to his 25th vintage—the past eight have been Ochota specific—and he says he’s becoming more and more relaxed as a winemaker. “It’s basically about working with Mother Nature and dodging the bullets that she fires. But the bottom line is always remembering it’s only a drink, not to take it too seriously and relax. I don’t work very hard during vintage. I like to finish early, have a cold beer, and go for a swim in the waterhole. If it can be done tomorrow, do it tomorrow.” Taras says that his wine is a product of his own personal tastes. And because his friends and family are first-hand imbibers of Ochota wines, growing organic grapes is key. “I grow my vegetables organically, so my son can go and pick a cherry tomato and put it in his mouth without having to worry about washing it. I take the same approach with our vineyards, not putting anything nasty on them.” Each maker of the region has a deep reverence for their entire surrounding ecosystem—the soil, the people, the grapes. It’s evident that the landscape, lifestyle and life ethics of the sub-region has played a role in shaping the mindsets, philosophies, methods, and resulting new-wave wines of these makers.
-  image:
-    title: vanguard-vintners-4
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/5BgztL3sf6wqg2g0qqAwM8/eb341960028861f49912f90655ac3ceb/vanguard-vintners-4.jpg"
-- sys:
     id: 2bC0qNIzLSEyaUKMqo2gka
   sectionTitle: limmigrante-content-1
   moduleType: copyImage
@@ -206,6 +171,67 @@ contentImageModule:
 
     I realised then that he didn’t actually believe I was serious about wanting to learn, but when Sal saw me don the apron, he quickly adjusted his expectations and settled in to the task of teaching me how to break down a carcass with minimal waste. We would always cut after a full day’s work; this was the major reason why it was so hard to find a willing butcher, as their own retail businesses operate six or seven days each week. An intense six months of fortnightly butchering followed as I learnt slowly each and every cut of the pig. At the other end, I came out not only a competent meatsmith, but with a profound respect for the skill and strength of those in the trade.
 - sys:
+    id: t8P3vDQwLIuisUcS660Um
+  sectionTitle: vanguard_vintners-content-2
+  moduleType: copyImage
+  copyPosition: false
+  copy: Russian-born Alex met his wife Galit while living in Israel. They decided
+    to move to Australia so Alex could chase his fledgling passion for making wine,
+    choosing the Basket Range because the only Australian they knew, James, was based
+    there. Alex took his background in biophysics and tacked on an honours degree
+    in oenology from the University of Adelaide, before landing a job at the Australian
+    Wine Research Institute, where he’s currently looking into the chemical drivers
+    of wine texture. He came at winemaking expecting to make conventional wine. “Very
+    little of what we plan actually turns out the way we imagined it. But I’ve realised
+    that if things don’t work out exactly the way they were planned, it’s not necessarily
+    a bad thing. When we came to South Australia, I really didn’t know that natural
+    wine existed. I always wanted to make exciting wine, because that’s what I felt
+    wine was about,” he says. But his perception of what it means for wine to be exciting
+    has shifted over the years. While The Other Right wines appear vibrant and playful,
+    his scientific rearing has contributed to shaping his signature style. “If you
+    want to break the rules, or even bend them, it’s worth knowing them. In certain
+    ways, knowing the rules can make it challenging to bend them because you know
+    you’re going against something. But given a bit of practice, you get used to it.
+    And that is where we find excitement now.”
+  image:
+    title: vanguard-vintners-3
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/6CTPPWdI7CUwMAkuIKWwG0/c576f5af4e0992d6b0982a0174ef1e21/vanguard-vintners-3.jpg"
+- sys:
+    id: Qjw7A6Wf60W22OkwqUAG2
+  sectionTitle: wtf-content-3
+  moduleType: copyImage
+  copyPosition: true
+  copy: |-
+    So where’s our local catch? In the case of our local mackerel I was chatting to a fisherman in the market the other day and the conversation went something like this. ‘Mate, I only send my fish to the local market if I get less than 100 kilos and it’s not worth my while sending it south; Melbourne and Sydney will pay more.’ The situation is even worse than that. If the market price crashes down there, then guess what—those fish are just as likely to get put on a truck and sent back up here to try and get a better price. The situation is ludicrous.
+
+    It’s as if we have been duped into believing our fish from nearby are somewhat under par. Mackerel is the perfect example. There is a public misconception that mackerel is a dark, oily and ‘fishy’ tasting fish. This is true if you live in Victoria or Tassie because your local blue mackerel is like that (very similar to the atlantic variety of the northern hemisphere). Mackerel from Queensland, however, (grey, school, spotted and spanish) are white fleshed and mild in taste. Sometimes these kinds of false understandings make me wonder if there is in fact some kind of conspiracy going on.
+
+    The truth is that in Queensland we have countless excellent eating fish: mackerels, wahoo, cobia, bonito, mulloway and threadfin are just a few. There are even species of mullet that are eminently suitable for even the very best of menus. By and large, however, these fish are caught by local small-scale fishermen and that usually represents a more sustainable outcome. To me our current preferences for ‘foreign’ fish represent some kind of cultural cringe where we believe our own local fish are somehow not ever as good as everyone else’s.
+- sys:
+    id: 38x0qUI4YowG4yCY4GCuuM
+  sectionTitle: limmigrante-content-2
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Prosecco and the King Valley: The heritage of the Prosecco wine dates back to the Roman Empire, when it was known as Pucino. Today it’s principally grown in the hills of Conegliano and Valdobbiadene in the moderate Mediterranean climate of the Veneto region of Northern Italy. In recent years the drink has outgrown its global reputation as cheap fizz, and is becoming a cool, relaxed celebratory drink, served at ritzy events in a salute to Italy’s stylish culture. It’s an uncomplicated wine, and its refreshing nature is perfect for Australian drinking conditions.
+
+    While not as mountainous, the King Valley, 250km north west of Melbourne, enjoys a similar climate to that of Veneto—frosty winters, and hot dry summers. The area’s agricultural past means the land is primed for growing, and Australian wine giants Brown Brothers began planting a range of varietals in the area in the 1970s. By the time Otto was ready to start producing, some 20 years later, the region was firmly established as wine growing country. Planting Prosecco however, hadn’t yet crossed anyone else’s mind.
+
+    ‘I was lucky enough to find a guy in South Australia, that had brought in a couple of plants of Prosecco over from Italy’, explains Otto.
+
+    ‘He wasn’t giving it to anyone, but I spoke to him on the phone, and we got chatting in our local Italian dialect of Valdobbiadene, I told him I was born in the Prosecco country, and he was nice enough to give me a few buds. We confirmed the DNA and we did bit of propagation—it took from 1999 and 2004 to get the first bottle, which we did in the Champenoise style’.
+
+    Méthode Champenoise, is a labour intensive, traditional winemaking craft, today only used commercially with Champagne’s and other high-end sparkling wines. It is however, the only viable option for a start-up with limited resources, and was the only method available to Otto in his Prosecco venture’s early days. Despite authentic intentions behind Otto’s Prosecco, it was a massive business gamble. Not only was he creating a new product in Australia, he was also backing a wine that wasn’t particularly popular. By 2004, two of Otto’s sons had left their careers behind to help create this family venture, so when it came to uncorking that first bottle, the new winemaker had a lot of pressure on his shoulders.
+
+    ‘I tell you what, we were sitting here at this table, and I was very nervous’, he recalls. ‘I was very worried about it, because we didn’t know what was going to happen, we didn’t know if it was going to be very good. The expectation was so high, and if it didn’t reach that, to me, it was going to be a failure’. ‘When we opened a bottle and tasted it I said ‘wow, thank god it’s good’ — I really went ‘wow’’.
+
+    Otto christened the wine Dal Zotto L’Immigrante Prosecco.
+  image:
+    title: limmigrante-4
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/4C2yDTs5uwamsaIIUeaIiq/106041d0d19c4977732e4584d3640a4b/limmigrante-4.jpg"
+- sys:
     id: 6TxCXpk36wyqKIwcky8yU
   sectionTitle: meatsmith-content-2
   moduleType: copyImage
@@ -251,57 +277,19 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/fljNgElDryekcYAWIKMs8/43833ce1882403e503f74263fd402f95/meatsmith-3.jpg"
 - sys:
-    id: t8P3vDQwLIuisUcS660Um
-  sectionTitle: vanguard_vintners-content-2
+    id: 3cTvborgNiGW68YmWug2qM
+  sectionTitle: vanguard_vintners-content-3
   moduleType: copyImage
-  copyPosition: false
-  copy: Russian-born Alex met his wife Galit while living in Israel. They decided
-    to move to Australia so Alex could chase his fledgling passion for making wine,
-    choosing the Basket Range because the only Australian they knew, James, was based
-    there. Alex took his background in biophysics and tacked on an honours degree
-    in oenology from the University of Adelaide, before landing a job at the Australian
-    Wine Research Institute, where he’s currently looking into the chemical drivers
-    of wine texture. He came at winemaking expecting to make conventional wine. “Very
-    little of what we plan actually turns out the way we imagined it. But I’ve realised
-    that if things don’t work out exactly the way they were planned, it’s not necessarily
-    a bad thing. When we came to South Australia, I really didn’t know that natural
-    wine existed. I always wanted to make exciting wine, because that’s what I felt
-    wine was about,” he says. But his perception of what it means for wine to be exciting
-    has shifted over the years. While The Other Right wines appear vibrant and playful,
-    his scientific rearing has contributed to shaping his signature style. “If you
-    want to break the rules, or even bend them, it’s worth knowing them. In certain
-    ways, knowing the rules can make it challenging to bend them because you know
-    you’re going against something. But given a bit of practice, you get used to it.
-    And that is where we find excitement now.”
+  copyPosition: true
+  copy: |-
+    Anton’s natural modus operandi is to question and break rules and systems. He too received first class honours at the University of Adelaide and made wine across various levels of convention and intervention for others in Germany, New Zealand and the United States. But he returned to the hills in 2002 and started experimenting. “I learnt so much at university and I’m so thankful for what I learnt, and I understand the concept, but it didn’t sit well with me. I couldn’t really find the answers in my study. So I went about disproving all the things that I was uncomfortable with. I didn’t really do it to prove a point; I just wanted to see what was possible. Once I started doing it, there was a little bit of backlash by some people, and a little bit of a following from others. Some that thought it was great to have freedom, and some that publicly berated what I was doing.” Anton is conscious that the holistic approach to wine and lifestyle that is a common thread amongst the Basket Range motley crew may induce a perception of hippy winemakers nesting in the hills, growing their own produce and living in accordance with nature’s rhythms. But these “crazy cats”, as Gareth dubs them, are at their core scientists and philosophers, critically questioning each other’s motivations and their liquid creations.
+
+    Taras Ochota of Ochota Barrels is also classically trained, having studied oenology and worked for vineyards both locally and globally. But he’s also the punk of the gang—and it’s impossible to have a boring time when he’s around. He’s up to his 25th vintage—the past eight have been Ochota specific—and he says he’s becoming more and more relaxed as a winemaker. “It’s basically about working with Mother Nature and dodging the bullets that she fires. But the bottom line is always remembering it’s only a drink, not to take it too seriously and relax. I don’t work very hard during vintage. I like to finish early, have a cold beer, and go for a swim in the waterhole. If it can be done tomorrow, do it tomorrow.” Taras says that his wine is a product of his own personal tastes. And because his friends and family are first-hand imbibers of Ochota wines, growing organic grapes is key. “I grow my vegetables organically, so my son can go and pick a cherry tomato and put it in his mouth without having to worry about washing it. I take the same approach with our vineyards, not putting anything nasty on them.” Each maker of the region has a deep reverence for their entire surrounding ecosystem—the soil, the people, the grapes. It’s evident that the landscape, lifestyle and life ethics of the sub-region has played a role in shaping the mindsets, philosophies, methods, and resulting new-wave wines of these makers.
   image:
-    title: vanguard-vintners-3
+    title: vanguard-vintners-4
     description: 
-    url: "//images.contentful.com/kkzerdgg97de/6CTPPWdI7CUwMAkuIKWwG0/c576f5af4e0992d6b0982a0174ef1e21/vanguard-vintners-3.jpg"
+    url: "//images.contentful.com/kkzerdgg97de/5BgztL3sf6wqg2g0qqAwM8/eb341960028861f49912f90655ac3ceb/vanguard-vintners-4.jpg"
 quoteModule:
-- sys:
-    id: 638VEa9BIcYIMAeQEAIyKK
-  sectionTitle: wtf-quote-2
-  moduleType: quote
-  quote: "‘… I let him have it with all the “born again” self righteousness I could
-    muster.’"
-- sys:
-    id: 56WXQGHXsImmwaG04EoYow
-  sectionTitle: meatsmith-quote-2
-  moduleType: quote
-  quote: "‘We started with six rare breed Large Black pigs, a dozen Lowline cattle,
-    a flock of rare breed Lincoln sheep, a dog, a cat and a handful of chooks..’"
-- sys:
-    id: 4UV5287KZq6oeyoOYQCk6A
-  sectionTitle: limmigrante-quote-1
-  moduleType: quote
-  quote: "‘We’re even helping the Prosecco from Italy now, giving it a better name,’
-    Otto says, only half-joking.’"
-- sys:
-    id: hfU9wumzrUC6myQggeswG
-  sectionTitle: meatsmith-quote-3
-  moduleType: quote
-  quote: "‘The next piece of the puzzle was funding, so we turned to our growing community
-    of ethical omnivores.’"
 - sys:
     id: 5WWfqK6AogawyQ2SQOI8im
   sectionTitle: meatsmith-quote-1
@@ -324,12 +312,46 @@ quoteModule:
     the boundaries a bit further and evolve in general, while staying curious and
     starry-eyed.’"
 - sys:
+    id: hfU9wumzrUC6myQggeswG
+  sectionTitle: meatsmith-quote-3
+  moduleType: quote
+  quote: "‘The next piece of the puzzle was funding, so we turned to our growing community
+    of ethical omnivores.’"
+- sys:
     id: 6oQGncVHEIM4keKEuaGGik
   sectionTitle: wtf-quote-1
   moduleType: quote
   quote: "‘… as someone who thinks a fair amount about sustainability issues, it is
     very evident to me that you guys don’t.’"
+- sys:
+    id: 638VEa9BIcYIMAeQEAIyKK
+  sectionTitle: wtf-quote-2
+  moduleType: quote
+  quote: "‘… I let him have it with all the “born again” self righteousness I could
+    muster.’"
+- sys:
+    id: 56WXQGHXsImmwaG04EoYow
+  sectionTitle: meatsmith-quote-2
+  moduleType: quote
+  quote: "‘We started with six rare breed Large Black pigs, a dozen Lowline cattle,
+    a flock of rare breed Lincoln sheep, a dog, a cat and a handful of chooks..’"
+- sys:
+    id: 4UV5287KZq6oeyoOYQCk6A
+  sectionTitle: limmigrante-quote-1
+  moduleType: quote
+  quote: "‘We’re even helping the Prosecco from Italy now, giving it a better name,’
+    Otto says, only half-joking.’"
 contributors:
+- sys:
+    id: 2ebxSXhmsU0iIeKwMA6sky
+  name: Richard Webb
+  occupation: Chef
+  type: Words
+- sys:
+    id: 4JmC9mkKc8c0gSoaA40Mmw
+  name: Nolan Giles
+  occupation: Writer
+  type: Words
 - sys:
     id: 5T68Hc0GVG0S004sQkoEmI
   name: Björn Rust
@@ -345,32 +367,43 @@ contributors:
   occupation: Farmer & Food Activist
   type: Words
 - sys:
-    id: 2ebxSXhmsU0iIeKwMA6sky
-  name: Richard Webb
-  occupation: Chef
-  type: Words
-- sys:
-    id: 4JmC9mkKc8c0gSoaA40Mmw
-  name: Nolan Giles
-  occupation: Writer
-  type: Words
-- sys:
     id: 1kyf5BkLPW20MEg0IEo8C2
   name: Robert Pekin
   occupation: 'Providore & Ethical Entrepreneur '
   type: Words
-portraitImageModule:
+wideImageModule:
 - sys:
-    id: 4PDyhjXIWAM6QsUKUY6uug
-  sectionTitle: vanguard_vintners-image-2up-1
-  moduleType: portraitImage
-  portraitImages:
-  - title: vanguard-vintners-9
+    id: 4FDwuXqOwo4u6UowqkwE4I
+  sectionTitle: meatsmith-image-large-1
+  moduleType: wideImage
+  image:
+    title: meatsmith-2
     description: 
-    url: "//images.contentful.com/kkzerdgg97de/1qWk3A6WMYCWmKeQQeiQwc/e8186b2e01e1209b8d14b5eb81f8730f/vanguard-vintners-9.jpg"
-  - title: vanguard-vintners-1
+    url: "//images.contentful.com/kkzerdgg97de/4y9Hd5335eii84qc28W4uQ/5d9e3e3405b72ff4a43cc1fe9a45d20e/meatsmith-2.jpg"
+- sys:
+    id: 1OFuaS0fuEcyQYgeqciQsy
+  sectionTitle: limmigrante-image-large-2
+  moduleType: wideImage
+  image:
+    title: limmigrante-5
     description: 
-    url: "//images.contentful.com/kkzerdgg97de/5cMIyR3zMIAOMQq6ASGkwC/fdb96c0d75ee688641f442aa322da8a6/vanguard-vintners-1.jpg"
+    url: "//images.contentful.com/kkzerdgg97de/pOgos1PZKKgAQeoWkG0QW/ca6f8524c222db5d2d26331cf28dafd9/limmigrante-5.jpg"
+- sys:
+    id: 28FiBQ2sHS28sWcuqeqIUa
+  sectionTitle: limmigrante-Image-large-3
+  moduleType: wideImage
+  image:
+    title: limmigrante-6
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/3hdwkisiiQM2C0c4QekIWw/a524fbb1d54b77710b5dc338b748fbe4/limmigrante-6.jpg"
+- sys:
+    id: 2S9s1c0dQAwoeIo8gM6sw4
+  sectionTitle: limmigrante-image-large-1
+  moduleType: wideImage
+  image:
+    title: limmigrante-3
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/7vuvry2K4MAGqy8AWEYe4C/ca56b88b1e9e401699d8122a627f1d46/limmigrante-3.jpg"
 postContainer:
 - sys:
     id: 1BbUCc2IiYO8QUUawiS00K
@@ -722,7 +755,7 @@ postContainer:
     title: vanguard-vintners-thumbnail
     description: 
     url: "//images.contentful.com/kkzerdgg97de/6P7yarem9aEgYGG4GEcAEc/fa25b1b18cffcb2b093f99508313fbb2/vanguard-vintners-thumbnail.jpg"
-  featureImageOrientation: true
+  featureImageOrientation: false
   location: Basket Range, AUS
   readTime: 12
   contributors:
@@ -863,36 +896,3 @@ postContainer:
       The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
 
       In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
-wideImageModule:
-- sys:
-    id: 28FiBQ2sHS28sWcuqeqIUa
-  sectionTitle: limmigrante-Image-large-3
-  moduleType: wideImage
-  image:
-    title: limmigrante-6
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/3hdwkisiiQM2C0c4QekIWw/a524fbb1d54b77710b5dc338b748fbe4/limmigrante-6.jpg"
-- sys:
-    id: 2S9s1c0dQAwoeIo8gM6sw4
-  sectionTitle: limmigrante-image-large-1
-  moduleType: wideImage
-  image:
-    title: limmigrante-3
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/7vuvry2K4MAGqy8AWEYe4C/ca56b88b1e9e401699d8122a627f1d46/limmigrante-3.jpg"
-- sys:
-    id: 4FDwuXqOwo4u6UowqkwE4I
-  sectionTitle: meatsmith-image-large-1
-  moduleType: wideImage
-  image:
-    title: meatsmith-2
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/4y9Hd5335eii84qc28W4uQ/5d9e3e3405b72ff4a43cc1fe9a45d20e/meatsmith-2.jpg"
-- sys:
-    id: 1OFuaS0fuEcyQYgeqciQsy
-  sectionTitle: limmigrante-image-large-2
-  moduleType: wideImage
-  image:
-    title: limmigrante-5
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/pOgos1PZKKgAQeoWkG0QW/ca6f8524c222db5d2d26331cf28dafd9/limmigrante-5.jpg"

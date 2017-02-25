@@ -91,6 +91,20 @@ init = function(){
 
   });
 
+	//Scroll To Top
+	$('a.top-scroll').on('click',function (e) {
+			e.preventDefault();
+
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			console.log('this is', target);
+
+			$('html, body').animate({
+					'scrollTop': target.offset().top
+			}, 900, 'swing');
+	});
+
+
 
 	// Throttle Resize events
   var resizeTimer;
@@ -118,8 +132,6 @@ init = function(){
   heroHeight();
 
 
-
-
   // Image Hover Carousel
   $("ul.article-title-container li:first a, .article-container.mobile ul.article-title-container li:first a").addClass('active');
   $(".article-images-container .single-article-image:first").addClass('active');
@@ -143,6 +155,56 @@ init = function(){
 
     }
   });
+
+	//Filter for Stories Listing Page
+
+	var options = {
+    valueNames: [ 'issue']
+	};
+
+	var storyList = new List('story-listing', options);
+
+	$('.filter-list a').on('click',function(e){
+		e.preventDefault();
+
+	  var $text = $(this).text();
+		var $color = $(this).data('color')
+		console.log($color);
+
+		$('body').css('background-color', $color);
+
+	  if($(this).data('title') === 'all'){
+
+	    storyList.filter();
+
+	    $(this).addClass('selected');
+
+	  } else {
+
+		    storyList.filter(function(item) {
+					console.log('in filter');
+		      return (item.values().issue == $text);
+		    });
+
+	    	$(this).addClass('selected');
+	  }
+
+
+
+
+	});
+
+	storyList.on('filterComplete', function (list){
+		console.log('Filterstarted');
+
+		list.matchingItems.forEach(function (element) {
+			console.log(element);
+			var item = element.elm.className
+			console.log(this.element);
+			$('.article-component').addClass('show');
+    });
+
+	});
 
 
 } //End Init

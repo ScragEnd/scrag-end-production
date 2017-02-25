@@ -1,0 +1,47 @@
+<section id="story-listing" class="page-section">
+  <div class="container">
+    <div class="stories-filter-container row">
+      <div class="stories-filter col-md-10 offset-md-1">
+        <h1 class="display">Stories</h2>
+        <ul class="filter-list">
+          <li><a href="#" data-title="all" data-color="#FFFBF9">All Stories</a></li>
+          <li><a href="#" data-color="#FCEE9C">Issue Zero</a></li>
+          <li><a href="#" data-color="#C1E3CF">Issue One</a></li>
+          <li><a href="#" data-color="">Online</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="stories-grid has-3-columns row list">
+      {% for story in site.data.contentful.spaces.stories.postContainer %}
+        <figure class="article-component col-xs-12 col-md-6 col-lg-4">
+          <div class="image-container">
+            <a href="{{ story.title | datapage_url: 'stories' }}">
+              <img src="https:{{story.thumbnail.url}}" alt="{{ story.thumbnail.title}}" />
+            </a>
+          </div>
+          <div class="article-info">
+            <div class="header">
+              <a href="{{ story.title | datapage_url: 'stories' }}"><h3>{{ story.title }}</h3></a>
+              <span class="meta">
+
+                <span class="issue">Issue {{ story.issue | capitalize }}</span> —
+
+                  {% assign contribID = story.contributors[0].sys.id  %}
+                  {% for contributor in site.data.contentful.spaces.stories.contributors %}
+
+                    {% if contributor.sys.id ==  contribID %}
+                      <span>
+                        {{ contributor.name }}
+                      </span>
+                    {% endif %}
+
+                  {% endfor %}
+
+                 — {{ story.readTime }} minute read</span>
+            </div>
+          </div>
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
