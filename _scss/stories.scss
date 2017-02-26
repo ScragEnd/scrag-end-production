@@ -179,6 +179,10 @@ section.story-hero {
 
 //Content Image Block
 
+.side-area .image-block.sticky {
+  position: sticky;
+  top: 5rem;
+}
 .content-image-block {
   .content-image-block-inner {
     display: flex;

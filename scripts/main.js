@@ -21,8 +21,6 @@ init = function(){
 	        forceHeight: false,
           smoothScrolling: true
 	    });
-			// Init Sticky Elements
-			var sticky = new Sticky('.sticky');
 
 	} else{
 		isMobile = true;
@@ -118,14 +116,10 @@ init = function(){
 		$('.story-hero-container').height(imageHeight + viewHeight + 80);
   };
 
-	//Update sticky element when window resize is triggered
-	function resizeSticky() {
-		sticky.update();
-	}
 
   $(window).resize(function() {
       clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(heroHeight, resizeSticky, 250);
+      resizeTimer = setTimeout(heroHeight, 250);
   });
 
 	//Run Hero Height fix on load
@@ -190,15 +184,13 @@ init = function(){
 	  }
 
 
-
-
 	});
 
 	storyList.on('filterComplete', function (list){
 		console.log('Filterstarted');
 
 		list.matchingItems.forEach(function (element) {
-			console.log(element);
+			console.log(element);g
 			var item = element.elm.className
 			console.log(this.element);
 			$('.article-component').addClass('show');
