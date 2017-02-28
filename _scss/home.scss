@@ -185,7 +185,8 @@ ul.article-title-container {
 figure.article-component {
   padding: 0;
   margin-bottom: 5rem;
-  transition: all 3s ease-in;
+  opacity: 1;
+  transition: all 1s ease-in-out;;
 
   @include media(">small") {
     padding-left: 2rem;
@@ -286,6 +287,11 @@ figure.article-component {
     }
   }
 
+}
+
+figure.article-component.hide {
+  opacity: 0;
+  transition: all 1s ease-in-out;;
 }
 
 
@@ -422,8 +428,10 @@ figure.article-component {
       background: #FFF;
       z-index: 200;
       margin-bottom: 5rem;
+      padding-bottom: 2rem;
 
       @include media(">small") {
+        // padding: 2rem;
       }
 
       @include media(">medium") {

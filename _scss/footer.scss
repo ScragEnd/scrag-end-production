@@ -11,6 +11,7 @@
 
 .footer-title {
 	margin-bottom: 3rem;
+	h3 {font-size: 2rem;}
 }
 
 .footer-links {
@@ -24,6 +25,11 @@
 }
 
 .footer-details {
+
+	@include media("<medium") {
+		margin-bottom: 4rem;
+	}
+
 	p {
 		font-family: "Chronicle Display A", "Chronicle Display B", serif;
 		font-size: 1rem;
@@ -52,6 +58,10 @@
 ul.links {
 	list-style: none;
 	flex-grow: 1;
+
+	@include media("<medium") {
+		margin-bottom: 2.5rem;
+	}
 
 	li {
 		font-family: "Ideal Sans A", "Ideal Sans B", sans-serif;

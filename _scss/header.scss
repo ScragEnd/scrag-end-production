@@ -6,6 +6,7 @@ header {
   z-index: 800;
   transition: $transition-hover-on;
   width: 100%;
+  pointer-events: none;
 }
 
 .header-inner {
@@ -29,6 +30,7 @@ header #logo {
   font-style: normal;
   font-weight: 600;
   font-size: .875rem;
+  pointer-events: auto;
 
   .description {
     font-family: "Chronicle Display A", "Chronicle Display B", serif;
@@ -57,6 +59,9 @@ header #logo {
 }
 
 header #main-navigation {
+
+  pointer-events: auto;
+
   a {
     text-transform: uppercase;
     font-family: "Ideal Sans A", "Ideal Sans B", sans-serif;
@@ -99,4 +104,10 @@ body.home header.in-open, body.cover-story header.in-open {
 header.hidden {
   pointer-events: none;
   opacity: 0;
+}
+
+header.hidden {
+  #logo, #main-navigation {
+    pointer-events: none;
+  }
 }

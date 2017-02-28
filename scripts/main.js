@@ -163,12 +163,11 @@ init = function(){
 
 	  var $text = $(this).text();
 		var $color = $(this).data('color')
-		console.log($color);
 
 		$('body').css('background-color', $color);
 
 	  if($(this).data('title') === 'all'){
-
+			$('.article-component').addClass('hide');
 	    storyList.filter();
 
 	    $(this).addClass('selected');
@@ -176,7 +175,7 @@ init = function(){
 	  } else {
 
 		    storyList.filter(function(item) {
-					console.log('in filter');
+					$('.article-component').addClass('hide');
 		      return (item.values().issue == $text);
 		    });
 
@@ -186,17 +185,17 @@ init = function(){
 
 	});
 
-	storyList.on('filterComplete', function (list){
-		console.log('Filterstarted');
+	if ($('body').hasClass('listing-page')) {
+		storyList.on('filterComplete', function (list){
 
-		list.matchingItems.forEach(function (element) {
-			console.log(element);g
-			var item = element.elm.className
-			console.log(this.element);
-			$('.article-component').addClass('show');
-    });
+			setTimeout(function(){
+				list.matchingItems.forEach(function (element) {
+					$('.article-component').removeClass('hide');
+		    });
+			}, 100)
 
-	});
+		});
+	}
 
 
 } //End Init
