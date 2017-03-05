@@ -6,13 +6,6 @@ init = function(){
 
   scrollAnimation();
 
-	//Init Smooth Scrolling
-	smoothScroll.init({
-		speed: 750,
-		easing: 'easeInOutCubic',
-		offset: 50,
-	});
-
 	//Check if we're mobile or not, and only apply animations on desktop
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	  	isMobile = false;
@@ -92,14 +85,8 @@ init = function(){
 	//Scroll To Top
 	$('a.top-scroll').on('click',function (e) {
 			e.preventDefault();
-
-			var target = $(this.hash);
-			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			console.log('this is', target);
-
-			$('html, body').animate({
-					'scrollTop': target.offset().top
-			}, 900, 'swing');
+			smoothScroll.animateScroll( 0 );
+			return false;
 	});
 
 
@@ -149,6 +136,39 @@ init = function(){
 
     }
   });
+
+
+
+
+	// console.log('find closest li', $(nextArticle).data('title') );
+
+
+	setInterval(function(){
+
+		// Find the next title after the one that is active
+
+		if ($(".article-title-container li a.active").closest('li').next().length == 0) {
+			var nextArticle = $(".article-title-container li").first().find('a')
+		} else {
+			var nextArticle = $(".article-title-container li a.active").closest('li').next().find('a')
+		}
+
+		// Get the title of the next article
+		var nextArticleTitle = $(nextArticle).data('title')
+
+		// Remove active class from active image
+		$(".single-article-image" + ".active").removeClass('active');
+
+		// Activate the matching image
+		$(".single-article-image" + "." + nextArticleTitle).addClass('active');
+
+		// Remove active class from active article title
+		$(".article-title-container li a.active").removeClass('active');
+
+		// Add active class to matching article
+		$(nextArticle).addClass('active');
+
+	}, 5000)
 
 	//Filter for Stories Listing Page
 
