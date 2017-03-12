@@ -18,21 +18,6 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/6vJ3OCvHwWI0yIEemIKSuA/8bf3f3ba1f2c9c3d2e829cd87f7608d3/limmigrante-7.jpg"
 - sys:
-    id: wn9HXxvPKogckWwEgiCMc
-  sectionTitle: limmigrante-content-3
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    La famiglia: Many factors were distilled into that 2004 L’Immigrante—including Otto’s refreshing Italian/Australian odyssey. However the driving passion to produce this product was really empowered by Otto’s sons Michael and Christian.
-
-    ‘Family business makes a big difference’, explains Otto. ‘Everyone in the family knows what is going on and they get on with it. The passion that you have as a family is important, tradition is important too and innovation, but family is our biggest ingredient’.
-
-    Michael Dal Zotto is the producer who has studied the art of winemaking both in Italy and Australia and had invested years of dedication into that first bottle, and all the bottles since. Christian Dal Zotto is the sales and marketing brain behind the venture.
-
-    ‘Now more than ever it is important that there is a connection of person or place to product’, explains Christian. ‘When we started selling wine, it was nice for our customers that we were a family business, but it wasn’t a reason for them to buy from us. But now restaurateurs want to deal directly with wineries, and they want to know where their product is coming from’.
-
-    Today Dal Zotto is a medium sized wine producer, growing a Prosecco grape among an assortment of others including Pinot Grigio, Sangiovese and Rosé across its 45 hectares. Prosecco is still the signature product, and can be found at bottle shops across the country, mainly thanks to a distribution deal with liquor giants Dan Murphy’s. Its mass-produced Pucino Prosecco is now made in the more efficient Charmat style where the second fermentation takes place in a pressurised tank, rather than the bottle. However, the Dal Zotto’s more premium L’Immigrante Prosecco’s are still made using the Methode Champenoise, which defined the 2004 vintage. Dal Zotto has also been operating a lively cellar door on King Valley Road boasting a fine Italian restaurant for a number of years. Many of the ingredients served are handpicked from mama Elena’s meticulously kept vegetable garden. Inspired by the success of the Dal Zotto brand, in 2014, there are also a number of other growers producing Prosecco in the region.
-- sys:
     id: 2bC0qNIzLSEyaUKMqo2gka
   sectionTitle: limmigrante-content-1
   moduleType: copyImage
@@ -92,19 +77,37 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/3pyWSKjmfu2EsSisGGggGg/e63a638ede695143b9f88b02c1aafb1d/vanguard-vintners-2.jpg"
 - sys:
-    id: 1Ij858BHrSa4Yw08yGswq2
-  sectionTitle: meatsmith-content-1
+    id: 3cTvborgNiGW68YmWug2qM
+  sectionTitle: vanguard_vintners-content-3
   moduleType: copyImage
   copyPosition: true
-  copy: |-
-    We unfortunately only have time here for the last few years of this story. I’ll begin with the galvanising moment—June 2010—when my lifetime lover Stuart and I heard Joel Salatin of Polyface Farms speak at the Lake House in Daylesford, Victoria.
-
-    Many of Salatin’s key points from that pivotal day are central to how we do business at Jonai Farms and Meatsmiths today: look after the ‘ecological umbilical’ through practices such as pasture-raised livestock in regenerative systems; take control of further processing on-farm and work for regulatory reform for small, low risk systems; ‘hold your innovations lightly’—no trademarks or patents; share what you learn in the interest of the public good; identify your market boundaries and then send people to other wonderful growers also selling ethical food; sell directly to people, and make sure ‘people answer the phone’; no advertising—it’s all word of mouth; ‘respect the pigness of the pig’ of course; and finally, we need more ‘Jeffersonian intellectual agrarians’!
+  copy: Taras Ochota of Ochota Barrels is also classically trained, having studied
+    oenology and worked for vineyards both locally and globally. But he’s also the
+    punk of the gang—and it’s impossible to have a boring time when he’s around. He’s
+    up to his 25th vintage—the past eight have been Ochota specific—and he says he’s
+    becoming more and more relaxed as a winemaker. “It’s basically about working with
+    Mother Nature and dodging the bullets that she fires. But the bottom line is always
+    remembering it’s only a drink, not to take it too seriously and relax. I don’t
+    work very hard during vintage. I like to finish early, have a cold beer, and go
+    for a swim in the waterhole. If it can be done tomorrow, do it tomorrow.” Taras
+    says that his wine is a product of his own personal tastes. And because his friends
+    and family are first-hand imbibers of Ochota wines, growing organic grapes is
+    key. “I grow my vegetables organically, so my son can go and pick a cherry tomato
+    and put it in his mouth without having to worry about washing it. I take the same
+    approach with our vineyards, not putting anything nasty on them.” Each maker of
+    the region has a deep reverence for their entire surrounding ecosystem—the soil,
+    the people, the grapes. It’s evident that the landscape, lifestyle and life ethics
+    of the sub-region has played a role in shaping the mindsets, philosophies, methods,
+    and resulting new-wave wines of these makers.
+  image:
+    title: vanguard-vintners-8
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/3HXyNrbx6Um4KkC4WUmgAk/84ce2cc55a494a8f7ce4a0c7d13708d0/vanguard-vintners-8.jpg"
 - sys:
     id: 5cNGBGSdAkA8youWkcEQkg
   sectionTitle: vanguard_vintners-content-4
   moduleType: copyImage
-  copyPosition: false
+  copyPosition: true
   copy: |-
     Brother-sister duo Jasper and Sophie Button have been making wine under the label Commune of Buttons since 2013. However, their connection to viticulture stretches back decades, with their parents instrumental in establishing Basket Range as a prominent wine region. They planted out vines in the 1990s, when the farm was owned by a commune of three families, and sold the grapes to commercial wineries to make a modest living. Now the next generation has taken the lead, converting to organic practices and co-farming the majority of the 30 acres with Anton of Lucy Margaux Vineyards.
 
@@ -117,6 +120,15 @@ contentImageModule:
     title: vanguard-vintners-10
     description: 
     url: "//images.contentful.com/kkzerdgg97de/34Qrdg8CHeuykQsQYuUmko/513280e0ecaa4857b7a8f095386b89bf/vanguard-vintners-10.jpg"
+- sys:
+    id: 1Ij858BHrSa4Yw08yGswq2
+  sectionTitle: meatsmith-content-1
+  moduleType: copyImage
+  copyPosition: true
+  copy: |-
+    We unfortunately only have time here for the last few years of this story. I’ll begin with the galvanising moment—June 2010—when my lifetime lover Stuart and I heard Joel Salatin of Polyface Farms speak at the Lake House in Daylesford, Victoria.
+
+    Many of Salatin’s key points from that pivotal day are central to how we do business at Jonai Farms and Meatsmiths today: look after the ‘ecological umbilical’ through practices such as pasture-raised livestock in regenerative systems; take control of further processing on-farm and work for regulatory reform for small, low risk systems; ‘hold your innovations lightly’—no trademarks or patents; share what you learn in the interest of the public good; identify your market boundaries and then send people to other wonderful growers also selling ethical food; sell directly to people, and make sure ‘people answer the phone’; no advertising—it’s all word of mouth; ‘respect the pigness of the pig’ of course; and finally, we need more ‘Jeffersonian intellectual agrarians’!
 - sys:
     id: 1umc4S9OM004wimcmUEsUK
   sectionTitle: wtf-content-1
@@ -148,32 +160,14 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/6tvIgBifFCosG6yICuMQGA/8e1a21c6b5bf007311487179b0225975/meatsmith-1.jpg"
 - sys:
-    id: 3cTvborgNiGW68YmWug2qM
-  sectionTitle: vanguard_vintners-content-3
+    id: 2oMwsJ462MCc02oA8m4W2Y
+  sectionTitle: meatsmith-content-3
   moduleType: copyImage
   copyPosition: false
-  copy: Taras Ochota of Ochota Barrels is also classically trained, having studied
-    oenology and worked for vineyards both locally and globally. But he’s also the
-    punk of the gang—and it’s impossible to have a boring time when he’s around. He’s
-    up to his 25th vintage—the past eight have been Ochota specific—and he says he’s
-    becoming more and more relaxed as a winemaker. “It’s basically about working with
-    Mother Nature and dodging the bullets that she fires. But the bottom line is always
-    remembering it’s only a drink, not to take it too seriously and relax. I don’t
-    work very hard during vintage. I like to finish early, have a cold beer, and go
-    for a swim in the waterhole. If it can be done tomorrow, do it tomorrow.” Taras
-    says that his wine is a product of his own personal tastes. And because his friends
-    and family are first-hand imbibers of Ochota wines, growing organic grapes is
-    key. “I grow my vegetables organically, so my son can go and pick a cherry tomato
-    and put it in his mouth without having to worry about washing it. I take the same
-    approach with our vineyards, not putting anything nasty on them.” Each maker of
-    the region has a deep reverence for their entire surrounding ecosystem—the soil,
-    the people, the grapes. It’s evident that the landscape, lifestyle and life ethics
-    of the sub-region has played a role in shaping the mindsets, philosophies, methods,
-    and resulting new-wave wines of these makers.
-  image:
-    title: vanguard-vintners-8
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/3HXyNrbx6Um4KkC4WUmgAk/84ce2cc55a494a8f7ce4a0c7d13708d0/vanguard-vintners-8.jpg"
+  copy: |-
+    Serendipitously, we commenced this planning just as we found an accommodating and enterprising butcher to see us through until we could realise our on-farm dream. Additionally, he even agreed to my madcap suggestion that he might let me cut with him each fortnight to learn the trade. The first night I turned up and asked for a boning knife, Sal asked with serious doubt in his voice, ‘Are you really going to cut with me?’
+
+    I realised then that he didn’t actually believe I was serious about wanting to learn, but when Sal saw me don the apron, he quickly adjusted his expectations and settled in to the task of teaching me how to break down a carcass with minimal waste. We would always cut after a full day’s work; this was the major reason why it was so hard to find a willing butcher, as their own retail businesses operate six or seven days each week. An intense six months of fortnightly butchering followed as I learnt slowly each and every cut of the pig. At the other end, I came out not only a competent meatsmith, but with a profound respect for the skill and strength of those in the trade.
 - sys:
     id: 38x0qUI4YowG4yCY4GCuuM
   sectionTitle: limmigrante-content-2
@@ -220,25 +214,6 @@ contentImageModule:
 
     The truth is that in Queensland we have countless excellent eating fish: mackerels, wahoo, cobia, bonito, mulloway and threadfin are just a few. There are even species of mullet that are eminently suitable for even the very best of menus. By and large, however, these fish are caught by local small-scale fishermen and that usually represents a more sustainable outcome. To me our current preferences for ‘foreign’ fish represent some kind of cultural cringe where we believe our own local fish are somehow not ever as good as everyone else’s.
 - sys:
-    id: 5gcGX0nmjSouGKSmEAcACS
-  sectionTitle: vanguard-vintners-content-5
-  moduleType: copyImage
-  copyPosition: false
-  copy: |-
-    Gareth came to winemaking in 2012, making one barrel that became three the following vintage and then dozens the successive years. He previously worked as a research scientist in marine biology focusing on seaweed diversity. Now he farms his own grapes and makes the wine, with wife Rainbo and brother-in-law Kyatt. “I think I am becoming better at being able to let go and feel the wines and let them lead me,” Gareth muses. “This is becoming increasingly important on a personal level, rather than trying to harness or control something into something it’s not—or what people expect wine to taste like from my region or variety.”
-
-    James says that many winemakers are control freaks, but in the natural wine game, wine is just a small part of a greater philosophy. “We’ve had to ask a lot of questions about the processes that we do to get the results we get with our wine, and we all have an individual expression that can’t be replicated. It’s about learning to let go, and understanding that as much as you wish to control wine or life, you can’t. This has come from a history where we’re all taught to plan for the future, and we’ve had to unlearn that and just accept.”
-
-    These creative, fringe thinkers have somehow been drawn to this sub-region and this style of winemaking, and managed to assemble a cohesive cluster. They’re all individually aiming for a harmonious existence in how they live on the land they occupy and with the people surrounding them. But it’s not all chill commune vibes either. “It’s a very interesting community because there are a lot of strong personalities. There’s the potential for conflict, but we’ve all surmounted that very openly,” James admits. There’s a greater ethos that unites them. They keep each other on their toes as to not fall complacent. But they also rely on each other for emotional and physical support, reassurance that they’re doing a good thing, that what they’re tasting is good and true, and a little help back-handing those doubts and anxieties away. Gareth says the high concentration of makers in the Basket Range makes a huge difference. “We’re pretty critical of each other, but in a good way. We push each other a lot. Without each other, maybe none of this would have been possible. Winemaking and farming equipment is very expensive, so being able to lend is awesome. Also, being able to ask a range of people for winemaking advice is just as important. Though having friends next door, with open doors, is probably the most important.”
-
-    The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
-
-    In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
-  image:
-    title: vanguard-vintners-11
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/4vVnwyK51SSIKOkUaQMEMK/f868107eb59eb298d2f7baeaee00ed56/vanguard-vintners-11.jpg"
-- sys:
     id: 3zXqGzLTNuAQWo6wi4G2Y6
   sectionTitle: meatsmith-content-4
   moduleType: copyImage
@@ -269,6 +244,26 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/5BgztL3sf6wqg2g0qqAwM8/eb341960028861f49912f90655ac3ceb/vanguard-vintners-4.jpg"
 - sys:
+    id: 5gcGX0nmjSouGKSmEAcACS
+  sectionTitle: vanguard-vintners-content-5
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Gareth came to winemaking in 2012, making one barrel that became three the following vintage and then dozens the successive years. He previously worked as a research scientist in marine biology focusing on seaweed diversity. Now he farms his own grapes and makes the wine, with wife Rainbo and brother-in-law Kyatt. “I think I am becoming better at being able to let go and feel the wines and let them lead me,” Gareth muses. “This is becoming increasingly important on a personal level, rather than trying to harness or control something into something it’s not—or what people expect wine to taste like from my region or variety.”
+
+    James says that many winemakers are control freaks, but in the natural wine game, wine is just a small part of a greater philosophy. “We’ve had to ask a lot of questions about the processes that we do to get the results we get with our wine, and we all have an individual expression that can’t be replicated. It’s about learning to let go, and understanding that as much as you wish to control wine or life, you can’t. This has come from a history where we’re all taught to plan for the future, and we’ve had to unlearn that and just accept.”
+
+    These creative, fringe thinkers have somehow been drawn to this sub-region and this style of winemaking, and managed to assemble a cohesive cluster. They’re all individually aiming for a harmonious existence in how they live on the land they occupy and with the people surrounding them. But it’s not all chill commune vibes either. “It’s a very interesting community because there are a lot of strong personalities. There’s the potential for conflict, but we’ve all surmounted that very openly,” James admits. There’s a greater ethos that unites them. They keep each other on their toes as to not fall complacent. But they also rely on each other for emotional and physical support, reassurance that they’re doing a good thing, that what they’re tasting is good and true, and a little help back-handing those doubts and anxieties away. Gareth says the high concentration of makers in the Basket Range makes a huge difference. “We’re pretty critical of each other, but in a good way. We push each other a lot. Without each other, maybe none of this would have been possible. Winemaking and farming equipment is very expensive, so being able to lend is awesome. Also, being able to ask a range of people for winemaking advice is just as important. Though having friends next door, with open doors, is probably the most important.”
+
+    The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
+
+    In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
+  supportingCopy: Proofreading by Sonya Gellert & Ashley Tucker.
+  image:
+    title: vanguard-vintners-11
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/4vVnwyK51SSIKOkUaQMEMK/f868107eb59eb298d2f7baeaee00ed56/vanguard-vintners-11.jpg"
+- sys:
     id: 57e71pEuxGoqqmOSaYgomu
   sectionTitle: wtf-content-2
   moduleType: copyImage
@@ -282,15 +277,6 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/TNUWmK3ouiy8QgyMKK4QI/d4b9ab11eff2a98e6b1ff5dd74bb73f6/wtfish-3.jpg"
 - sys:
-    id: 2oMwsJ462MCc02oA8m4W2Y
-  sectionTitle: meatsmith-content-3
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    Serendipitously, we commenced this planning just as we found an accommodating and enterprising butcher to see us through until we could realise our on-farm dream. Additionally, he even agreed to my madcap suggestion that he might let me cut with him each fortnight to learn the trade. The first night I turned up and asked for a boning knife, Sal asked with serious doubt in his voice, ‘Are you really going to cut with me?’
-
-    I realised then that he didn’t actually believe I was serious about wanting to learn, but when Sal saw me don the apron, he quickly adjusted his expectations and settled in to the task of teaching me how to break down a carcass with minimal waste. We would always cut after a full day’s work; this was the major reason why it was so hard to find a willing butcher, as their own retail businesses operate six or seven days each week. An intense six months of fortnightly butchering followed as I learnt slowly each and every cut of the pig. At the other end, I came out not only a competent meatsmith, but with a profound respect for the skill and strength of those in the trade.
-- sys:
     id: 5zvN8YbSesS8s4sA4uUeWK
   sectionTitle: wtf-content-4
   moduleType: copyImage
@@ -303,14 +289,52 @@ contentImageModule:
     It’s been over a year since my chat with James and since then I’ve learnt and am still learning a lot. In many ways Betterfish is a direct outcome of that phone call and my associated shortfall. I suppose I have now grown up a fair bit, and rather than directing my efforts towards berating chefs who do not provide a product in line with my views, I spend an increasing amount of time helping chefs all over to explore a wider range of seafood options, with a much more helpful and far less paternal outlook.
 
     I guess, at the end of the day, what I am really saying is—James, if you read this, I am sorry, give me a call, I promise this time I will be gentle.
-quoteModule:
 - sys:
-    id: 6g9x87ELgkU8M8yoIeUIOa
-  sectionTitle: vanguard_vintners-quote-1
-  moduleType: quote
-  quote: "‘Every year we become more confident in what we do, which allows us to push
-    the boundaries a bit further and evolve in general, while staying curious and
-    starry-eyed.’"
+    id: wn9HXxvPKogckWwEgiCMc
+  sectionTitle: limmigrante-content-3
+  moduleType: copyImage
+  copyPosition: true
+  copy: |-
+    La famiglia: Many factors were distilled into that 2004 L’Immigrante—including Otto’s refreshing Italian/Australian odyssey. However the driving passion to produce this product was really empowered by Otto’s sons Michael and Christian.
+
+    ‘Family business makes a big difference’, explains Otto. ‘Everyone in the family knows what is going on and they get on with it. The passion that you have as a family is important, tradition is important too and innovation, but family is our biggest ingredient’.
+
+    Michael Dal Zotto is the producer who has studied the art of winemaking both in Italy and Australia and had invested years of dedication into that first bottle, and all the bottles since. Christian Dal Zotto is the sales and marketing brain behind the venture.
+
+    ‘Now more than ever it is important that there is a connection of person or place to product’, explains Christian. ‘When we started selling wine, it was nice for our customers that we were a family business, but it wasn’t a reason for them to buy from us. But now restaurateurs want to deal directly with wineries, and they want to know where their product is coming from’.
+
+    Today Dal Zotto is a medium sized wine producer, growing a Prosecco grape among an assortment of others including Pinot Grigio, Sangiovese and Rosé across its 45 hectares. Prosecco is still the signature product, and can be found at bottle shops across the country, mainly thanks to a distribution deal with liquor giants Dan Murphy’s. Its mass-produced Pucino Prosecco is now made in the more efficient Charmat style where the second fermentation takes place in a pressurised tank, rather than the bottle. However, the Dal Zotto’s more premium L’Immigrante Prosecco’s are still made using the Methode Champenoise, which defined the 2004 vintage. Dal Zotto has also been operating a lively cellar door on King Valley Road boasting a fine Italian restaurant for a number of years. Many of the ingredients served are handpicked from mama Elena’s meticulously kept vegetable garden. Inspired by the success of the Dal Zotto brand, in 2014, there are also a number of other growers producing Prosecco in the region.
+contributors:
+- sys:
+    id: 4JmC9mkKc8c0gSoaA40Mmw
+  name: Nolan Giles
+  occupation: Writer
+  type: Words
+- sys:
+    id: 2ebxSXhmsU0iIeKwMA6sky
+  name: Richard Webb
+  occupation: Chef
+  type: Words
+- sys:
+    id: 1kyf5BkLPW20MEg0IEo8C2
+  name: Robert Pekin
+  occupation: 'Providore & Ethical Entrepreneur '
+  type: Words
+- sys:
+    id: 10HgDAXvwUSwUcc6kCkc6S
+  name: Tammi Jonas
+  occupation: Farmer & Food Activist
+  type: Words
+- sys:
+    id: 1ht3or7BBMykKSmAs2AkUO
+  name: Linsey Rendell
+  occupation: Writer & Editor
+  type: Words
+- sys:
+    id: 5T68Hc0GVG0S004sQkoEmI
+  name: Björn Rust
+  type: Photographs
+quoteModule:
 - sys:
     id: 1ZNlZboyyke2066ieYAsYI
   sectionTitle: vanguard_vintners-quote-2
@@ -355,36 +379,13 @@ quoteModule:
   moduleType: quote
   quote: "‘The next piece of the puzzle was funding, so we turned to our growing community
     of ethical omnivores.’"
-contributors:
 - sys:
-    id: 4JmC9mkKc8c0gSoaA40Mmw
-  name: Nolan Giles
-  occupation: Writer
-  type: Words
-- sys:
-    id: 2ebxSXhmsU0iIeKwMA6sky
-  name: Richard Webb
-  occupation: Chef
-  type: Words
-- sys:
-    id: 1kyf5BkLPW20MEg0IEo8C2
-  name: Robert Pekin
-  occupation: 'Providore & Ethical Entrepreneur '
-  type: Words
-- sys:
-    id: 10HgDAXvwUSwUcc6kCkc6S
-  name: Tammi Jonas
-  occupation: Farmer & Food Activist
-  type: Words
-- sys:
-    id: 1ht3or7BBMykKSmAs2AkUO
-  name: Linsey Rendell
-  occupation: Writer & Editor
-  type: Words
-- sys:
-    id: 5T68Hc0GVG0S004sQkoEmI
-  name: Björn Rust
-  type: Photographs
+    id: 6g9x87ELgkU8M8yoIeUIOa
+  sectionTitle: vanguard_vintners-quote-1
+  moduleType: quote
+  quote: "‘Every year we become more confident in what we do, which allows us to push
+    the boundaries a bit further and evolve in general, while staying curious and
+    starry-eyed.’"
 postContainer:
 - sys:
     id: Poz6fu8DGSkSKsYwEiuWq
@@ -589,7 +590,7 @@ postContainer:
       id: 3cTvborgNiGW68YmWug2qM
     sectionTitle: vanguard_vintners-content-3
     moduleType: copyImage
-    copyPosition: false
+    copyPosition: true
     copy: Taras Ochota of Ochota Barrels is also classically trained, having studied
       oenology and worked for vineyards both locally and globally. But he’s also the
       punk of the gang—and it’s impossible to have a boring time when he’s around.
@@ -635,7 +636,7 @@ postContainer:
       id: 5cNGBGSdAkA8youWkcEQkg
     sectionTitle: vanguard_vintners-content-4
     moduleType: copyImage
-    copyPosition: false
+    copyPosition: true
     copy: |-
       Brother-sister duo Jasper and Sophie Button have been making wine under the label Commune of Buttons since 2013. However, their connection to viticulture stretches back decades, with their parents instrumental in establishing Basket Range as a prominent wine region. They planted out vines in the 1990s, when the farm was owned by a commune of three families, and sold the grapes to commercial wineries to make a modest living. Now the next generation has taken the lead, converting to organic practices and co-farming the majority of the 30 acres with Anton of Lucy Margaux Vineyards.
 
@@ -663,6 +664,7 @@ postContainer:
       The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
 
       In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
+    supportingCopy: Proofreading by Sonya Gellert & Ashley Tucker.
     image:
       title: vanguard-vintners-11
       description: 
@@ -878,7 +880,7 @@ postContainer:
       id: 2oMwsJ462MCc02oA8m4W2Y
     sectionTitle: meatsmith-content-3
     moduleType: copyImage
-    copyPosition: true
+    copyPosition: false
     copy: |-
       Serendipitously, we commenced this planning just as we found an accommodating and enterprising butcher to see us through until we could realise our on-farm dream. Additionally, he even agreed to my madcap suggestion that he might let me cut with him each fortnight to learn the trade. The first night I turned up and asked for a boning knife, Sal asked with serious doubt in his voice, ‘Are you really going to cut with me?’
 
