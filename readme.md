@@ -4,10 +4,20 @@ The production code for the Scrag End website.
 
 ## To get started
 
-I need to complete this
+Ensure Ruby, Bundler (gem), Node.js and npm are installed.
 
-## Usage
+To install
+```
+bundle
+npm install
+```
 
+To run locally
+```
+gulp
+```
+
+Pushing code to 'Master' branch will trigger Codeship to build the site and deploy to the Github hosting repo.
 
 ## Owner
 
