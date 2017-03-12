@@ -24,13 +24,22 @@ section.story-hero {
   height: 100vh;
   display: flex;
 
-  @include media("<medium") {
-    height: 125vh;
+  // @include media("<medium") {
+  //   height: 125vh;
+  // }
+
+  @include media("<large") {
+    flex-direction: column;
+    padding-top: 25vh;
   }
 
   .story-hero-content {
     position: relative;
     align-self: center;
+
+    @include media("<large") {
+      margin-bottom: 80px;
+    }
   }
 
   .cover-container {
@@ -53,7 +62,7 @@ section.story-hero {
     overflow: hidden;
     background-attachment: scroll;
 
-    &:before {
+    &:after {
       position: absolute;
       content:"";
       top:0;
@@ -88,6 +97,11 @@ section.story-hero {
     right: 0;
     align-self: flex-end;
     transform: translateY(50%);
+
+    @include media("<large") {
+      transform: translateY(0%);
+      position: relative;
+    }
   }
 
   .story-info {
@@ -115,7 +129,7 @@ section.story-hero {
     background-color: currentColor;
 
     img {
-      opacity: .9;
+      opacity: 1;
       transition: opacity 1s cubic-bezier(.18,1,.25,1);
     }
 
@@ -137,7 +151,7 @@ section.story-hero {
   margin-bottom: 12rem;
 
   @include media("<small") {
-    // margin-top: 6rem;
+    margin-top: 80px;
     margin-bottom: 4rem;
   }
 
@@ -162,6 +176,10 @@ section.story-hero {
 
 //Content Image Block
 
+.side-area .image-block.sticky {
+  position: sticky;
+  top: 5rem;
+}
 .content-image-block {
   .content-image-block-inner {
     display: flex;
@@ -401,7 +419,43 @@ section.next-story {
   width: 100%;
   z-index: 20000;
   background: white;
+  transform: translateY(100%);
+  transition: $transition-hover-on;
 }
+
+.story-footer.active {
+  transform: translateY(0);
+  transition: $transition-hover-on;
+}
+
+.story-footer-inner {
+  height: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &:after {content: none;}
+}
+
+.link-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  .next {
+    margin-left: auto;
+  }
+
+  .previous {
+    margin-right: auto;
+  }
+}
+
+
 
 progress {
   position: absolute;

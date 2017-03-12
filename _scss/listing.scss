@@ -1,0 +1,58 @@
+body.stories-listing {
+  background-color: $skin;
+}
+
+
+
+//Story Listing Version
+
+#story-listing .stories-grid.has-3-columns {
+  figure.article-component .article-info {
+    height: 100%;
+
+    @include media(">medium") {
+  		height: 288px;
+  	}
+
+  }
+}
+
+
+
+//Listing Header and Filter
+
+.stories-filter-container {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+  height: 100%;
+  position: relative;
+}
+
+.stories-filter h1 {
+  margin-bottom: 2rem;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.stories-filter .filter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    font-family: "Chronicle Display A", "Chronicle Display B", serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.666;
+    margin-right: 2.5rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  a {
+
+  }
+}

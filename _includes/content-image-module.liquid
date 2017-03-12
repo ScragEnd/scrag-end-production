@@ -7,11 +7,9 @@
 
       <div class="side-area col-sm-5 col-md-6 col-lg-5">
         {% if module.image%}
-          <div class="image-block image-block--{{ module.copyPosition }}  animation-set animated animated--no-slide-up">
-            <img src="https:{{module.image.url}}" alt="{{ module.image.title}}" />
-            {% if module.image.caption %}
-              <p class="caption">{{ module.image.caption }}</p>
-            {% endif %}
+          <div class="image-block image-block--{{ module.copyPosition }} animation-set animated animated--no-slide-up {% unless module.supportingCopy%}sticky{% endunless %}">
+            <img src="https:{{module.image.url}}" alt="{{ module.image.title}}"  />
+
           </div>
         {% endif %}
 

@@ -179,13 +179,14 @@ ul.article-title-container {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
-  justify-content: space-between;
   transition: $transition-hover-on;
 }
 
 figure.article-component {
   padding: 0;
   margin-bottom: 5rem;
+  opacity: 1;
+  transition: all 1s ease-in-out;;
 
   @include media(">small") {
     padding-left: 2rem;
@@ -287,6 +288,12 @@ figure.article-component {
   }
 
 }
+
+figure.article-component.hide {
+  opacity: 0;
+  transition: all 1s ease-in-out;;
+}
+
 
 //Latest Issue
 
@@ -421,8 +428,10 @@ figure.article-component {
       background: #FFF;
       z-index: 200;
       margin-bottom: 5rem;
+      padding-bottom: 2rem;
 
       @include media(">small") {
+        // padding: 2rem;
       }
 
       @include media(">medium") {

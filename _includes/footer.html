@@ -1,28 +1,44 @@
 <footer id="footer">
   <div class="container">
-    <div class="footer-inner col-md-4 offset-md-4">
-      <div class="logo"><img src="/assets/images/scrag-logo.svg" alt="Scrag End Logo"></div>
-      <a href="http://shop.scragend.com/" target="_blank" class="sub-nav">Purchase Journal</a>
-      <ul class="social-links">
-        <li><a href="https://www.facebook.com/scragend/" target="_blank">Facebook</a></li>
-        <li><a href="https://www.instagram.com/scragendjournal/" target="_blank">Instagram</a></li>
-        <li><a href="https://twitter.com/scrag_end" target="_blank">Twitter</a></li>
-      </ul>
-      <a href="mailto:info@scragend.com" class="email-link">info@scragend.com</a>
-      <div class="copyright">
-        <span>© Scrag End 2016 </span>
+    <div class="col-md-10 offset-md-1">
+      <div class="footer-intro row">
+        <div class="footer-title col-md-12">
+          <h3>Colophon</h3>
+        </div>
+      </div>
+      <div class="footer-inner row">
+        <div class="footer-details col-md-6">
+          {% for category in site.data.footer %}
+            <div class="category-block">
+              {% if category.title %}
+                <span class="category-title">{{category.title}}</span>
+              {% endif %}
+              {{category.content | markdownify }}
+            </div>
+          {% endfor %}
+        </div>
+        <div class="footer-links col-md-3 offset-md-3">
+          <ul class="links">
+            <li class="donate"><a href="https://www.patreon.com/scragend" target="_blank">Donate</a></li>
+            <li><a href="https://www.facebook.com/scragend/" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/scragendjournal/" target="_blank">Instagram</a></li>
+            <li><a href="https://twitter.com/scrag_end" target="_blank">Twitter</a></li>
+            <li><a href="https://vimeo.com/scragend" target="_blank">Vimeo</a></li>
+          </ul>
+          <div class="misc">
+            <div class="logo"><img src="/assets/images/scrag-logo.svg" alt="Scrag End Logo"></div>
+            <a href="#" class="top-scroll">Back to top</a>
+          </div>
+        </div>
       </div>
     </div>
+
   </div>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="/scripts/jquery.viewportchecker.min.js" type="text/javascript"></script>
 <script src="/scripts/skrollr.min.js" type="text/javascript"></script>
+<script src="/scripts/list.min.js" type="text/javascript"></script>
 <script src="/scripts/smooth-scroll.min.js" type="text/javascript"></script>
 <script src="/scripts/main.js" type="text/javascript"></script>
-
-
-<script>
-	// Google Analytics Script
-</script>

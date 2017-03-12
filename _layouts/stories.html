@@ -1,3 +1,7 @@
+---
+categories: [story]
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +15,7 @@
 
         <section class="story-hero {% if page.issue %}issue-{{ page.issue}} {% endif %}">
 
-          {% if page.coverImage %}
+          {% if page.coverImage.title %}
             <div class="cover-container">
               <div class="cover-image" style="background-image: url('https:{{page.coverImage.url}}')" data-bottom="transform:translate3d(0px, 0%, 0px);" data-top-bottom="transform:translate3d(0px, 15%, 0px);"></div>
             </div>
@@ -23,12 +27,18 @@
                 <div class="spacer"></div>
                 <h1 class="display">{{page.title}}</h1>
                 <h5 class="story-meta">
-                  {% if page.issue %} Originally published in Issue {{ page.issue | capitalize }} {% else %} Published {{ page.date-published }} {% endif %} — {{ page.readTime }} minute read
+                  {% if page.issue != 'online' %}
+                  Originally published in Issue {{ page.issue | capitalize }}
+                  {% else %}
+                  Originally published online
+                  {% endif %}
+                  — {{ page.readTime }} minute read
+
                 </h5>
                 <h4 class="byline">
 
                   {% for item in page.contributors %}
-
+                    {{ item.type }}
                     {% assign contribID = item.sys.id  %}
 
                     {% for contributor in site.data.contentful.spaces.stories.contributors %}
@@ -47,7 +57,7 @@
             </div>
           </div>
           <div class="story-feature-image {{ page.featureImageOrientation }} container">
-            <div class="feature-image {% if page.featureImageOrientation == false %} col-lg-6 offset-lg-5 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
+            <div class="feature-image {% if page.featureImageOrientation == false %} col-lg-5 offset-lg-6 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
               <img src="https:{{page.featureImage.url}}" alt="page.featureImage.title" />
             </div>
           </div>
@@ -58,9 +68,7 @@
       <section class="container story-lead">
         <div class="row">
           <div class="lead-paragraph col-lg-8 offset-lg-2">
-            <p>
-              {{ page.leadParagraph | markdownify }}
-            </p>
+              {{ page.excerpt | markdownify }}
           </div>
         </div>
       </section>
@@ -89,7 +97,7 @@
 
       </main>
 
-      {% if page.issue %}
+      {% if page.issue != 'online' %}
         {% include purchase-issue.liquid %}
       {% endif %}
 

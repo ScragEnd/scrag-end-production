@@ -108,21 +108,21 @@ h3, .h3{
 	font-style: normal;
 	font-weight: 600;
 	font-size: 1rem;
-	line-height: 1.5rem;
+	line-height: 2.5rem;
 
 	@include media(">small") {
 		font-size: 1.25rem;
-		line-height: 2rem;
+		// line-height: 2rem;
 	}
 
 	@include media(">medium") {
 		font-size: 1.5rem;
-		line-height: 2rem;
+		// line-height: 2rem;
 	}
 
 	@include media(">large") {
 		font-size: 2rem;
-		line-height: 2.5rem;
+		// line-height: 2.5rem;
 	}
 }
 
@@ -194,6 +194,26 @@ a.text-link {
 		}
 	}
 
+}
+
+a.text-link.previous {
+	padding-left: 0;
+	padding-right: 2rem;
+
+	&:before {
+		right: 0;
+		left: auto;
+	}
+}
+
+a.text-link.previous, a.text-link.next {
+	&:before {
+		top: 9px;
+
+		@include media("<small") {
+	    content: none;
+	  }
+	}
 }
 
 a.secondary-link {
