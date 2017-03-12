@@ -28,6 +28,9 @@ markdown: kramdown
 # sass:
 #   sass_dir: /css
 
+gems:
+  - jekyll-sitemap
+
 collections:
   stories:
     output: true
