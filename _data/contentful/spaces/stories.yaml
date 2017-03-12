@@ -92,38 +92,6 @@ contentImageModule:
     description: 
     url: "//images.contentful.com/kkzerdgg97de/3pyWSKjmfu2EsSisGGggGg/e63a638ede695143b9f88b02c1aafb1d/vanguard-vintners-2.jpg"
 - sys:
-    id: t8P3vDQwLIuisUcS660Um
-  sectionTitle: vanguard_vintners-content-2
-  moduleType: copyImage
-  copyPosition: false
-  copy: |-
-    Russian-born Alex met his wife Galit while living in Israel. They decided to move to Australia so Alex could chase his fledgling passion for making wine, choosing the Basket Range because the only Australian they knew, James, was based there. Alex took his background in biophysics and tacked on an honours degree in oenology from the University of Adelaide, before landing a job at the Australian Wine Research Institute, where he’s currently looking into the chemical drivers of wine texture. He came at winemaking expecting to make conventional wine. “Very little of what we plan actually turns out the way we imagined it. But I’ve realised that if things don’t work out exactly the way they were planned, it’s not necessarily a bad thing. When we came to South Australia, I really didn’t know that natural wine existed. I always wanted to make exciting wine, because that’s what I felt wine was about,” he says. But his perception of what it means for wine to be exciting has shifted over the years. While The Other Right wines appear vibrant and playful, his scientific rearing has contributed to shaping his signature style. “If you want to break the rules, or even bend them, it’s worth knowing them. In certain ways, knowing the rules can make it challenging to bend them because you know you’re going against something. But given a bit of practice, you get used to it. And that is where we find excitement now.”
-
-    Anton’s natural modus operandi is to question and break rules and systems. He too received first class honours at the University of Adelaide and made wine across various levels of convention and intervention for others in Germany, New Zealand and the United States. But he returned to the hills in 2002 and started experimenting. “I learnt so much at university and I’m so thankful for what I learnt, and I understand the concept, but it didn’t sit well with me. I couldn’t really find the answers in my study. So I went about disproving all the things that I was uncomfortable with. I didn’t really do it to prove a point; I just wanted to see what was possible. Once I started doing it, there was a little bit of backlash by some people, and a little bit of a following from others. Some that thought it was great to have freedom, and some that publicly berated what I was doing.” Anton is conscious that the holistic approach to wine and lifestyle that is a common thread amongst the Basket Range motley crew may induce a perception of hippy winemakers nesting in the hills, growing their own produce and living in accordance with nature’s rhythms. But these “crazy cats”, as Gareth dubs them, are at their core scientists and philosophers, critically questioning each other’s motivations and their liquid creations.
-  image:
-    title: vanguard-vintners-4
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/5BgztL3sf6wqg2g0qqAwM8/eb341960028861f49912f90655ac3ceb/vanguard-vintners-4.jpg"
-- sys:
-    id: 5gcGX0nmjSouGKSmEAcACS
-  sectionTitle: vanguard-vintners-content-5
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    Gareth came to winemaking in 2012, making one barrel that became three the following vintage and then dozens the successive years. He previously worked as a research scientist in marine biology focusing on seaweed diversity. Now he farms his own grapes and makes the wine, with wife Rainbo and brother-in-law Kyatt. “I think I am becoming better at being able to let go and feel the wines and let them lead me,” Gareth muses. “This is becoming increasingly important on a personal level, rather than trying to harness or control something into something it’s not—or what people expect wine to taste like from my region or variety.”
-
-    James says that many winemakers are control freaks, but in the natural wine game, wine is just a small part of a greater philosophy. “We’ve had to ask a lot of questions about the processes that we do to get the results we get with our wine, and we all have an individual expression that can’t be replicated. It’s about learning to let go, and understanding that as much as you wish to control wine or life, you can’t. This has come from a history where we’re all taught to plan for the future, and we’ve had to unlearn that and just accept.”
-
-    These creative, fringe thinkers have somehow been drawn to this sub-region and this style of winemaking, and managed to assemble a cohesive cluster. They’re all individually aiming for a harmonious existence in how they live on the land they occupy and with the people surrounding them. But it’s not all chill commune vibes either. “It’s a very interesting community because there are a lot of strong personalities. There’s the potential for conflict, but we’ve all surmounted that very openly,” James admits. There’s a greater ethos that unites them. They keep each other on their toes as to not fall complacent. But they also rely on each other for emotional and physical support, reassurance that they’re doing a good thing, that what they’re tasting is good and true, and a little help back-handing those doubts and anxieties away. Gareth says the high concentration of makers in the Basket Range makes a huge difference. “We’re pretty critical of each other, but in a good way. We push each other a lot. Without each other, maybe none of this would have been possible. Winemaking and farming equipment is very expensive, so being able to lend is awesome. Also, being able to ask a range of people for winemaking advice is just as important. Though having friends next door, with open doors, is probably the most important.”
-
-    The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
-
-    In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
-  image:
-    title: vanguard-vintners-11
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/4vVnwyK51SSIKOkUaQMEMK/f868107eb59eb298d2f7baeaee00ed56/vanguard-vintners-11.jpg"
-- sys:
     id: 1Ij858BHrSa4Yw08yGswq2
   sectionTitle: meatsmith-content-1
   moduleType: copyImage
@@ -132,23 +100,6 @@ contentImageModule:
     We unfortunately only have time here for the last few years of this story. I’ll begin with the galvanising moment—June 2010—when my lifetime lover Stuart and I heard Joel Salatin of Polyface Farms speak at the Lake House in Daylesford, Victoria.
 
     Many of Salatin’s key points from that pivotal day are central to how we do business at Jonai Farms and Meatsmiths today: look after the ‘ecological umbilical’ through practices such as pasture-raised livestock in regenerative systems; take control of further processing on-farm and work for regulatory reform for small, low risk systems; ‘hold your innovations lightly’—no trademarks or patents; share what you learn in the interest of the public good; identify your market boundaries and then send people to other wonderful growers also selling ethical food; sell directly to people, and make sure ‘people answer the phone’; no advertising—it’s all word of mouth; ‘respect the pigness of the pig’ of course; and finally, we need more ‘Jeffersonian intellectual agrarians’!
-- sys:
-    id: 3zXqGzLTNuAQWo6wi4G2Y6
-  sectionTitle: meatsmith-content-4
-  moduleType: copyImage
-  copyPosition: true
-  copy: |-
-    Meanwhile, Stuart and I set about researching the requirements for an on-farm boning room. Those requirements are fairly stringent, and largely obscured by intentionally vague standards in the federal Meat Industry Act, which are then enforced by state regulators (PrimeSafe in the case of Victoria). Our local council really had no idea whether we could set up a boning room within the farming zone—it turned out of course that we could. Other small producers said they’d thought about doing the same, but felt overwhelmed at the regulations and the expense of building a facility.
-
-    To prepare for the building of this room, as we did when we were preparing to become pig farmers a mere year and a half earlier, we hit the road and spoke to the experts—butchers across Victoria, New South Wales and South Australia. While their own grasp of the standards was sometimes sketchy, they were running legal, licensed facilities, so we figured they must have some idea of what was allowed and what wasn’t, even if they weren’t based on a farm.
-
-    There were a lot of inconsistencies. Our research uncovered differences in the interpretation and enforcement across state jurisdictions, as well as a lot of confusion amongst butchers about just what is required and why. We also learnt that supermarkets and other retailers, for whom meat is less than 50 per cent of their sales, are regulated by the Environmental Health Officers at their local councils, not the meat regulators in each state. So although the largely unskilled ‘butchers’—or box cutters as we call them (a reflection of the type of products they usually cut)—working in the duopoly are managing the same risks in terms of safe handling and temperature control, they are not subject to the same level of scrutiny as butcher’s shops.
-
-    There has been an enquiry into these inconsistencies and the need for greater transparency in the regulators’ dealings with butchers, but it appears that the government has little appetite for reform in regulation of the meat industry. In short, that meant we worked out the requirements as best we could ourselves. We were left to our own devices with the generous advice of a number of excellent butchers in Australia, as well as with advice and support from the Australian Meat Industry Council (AMIC)—the peak body for butchers and abattoirs.
-  image:
-    title: meatsmith-3
-    description: 
-    url: "//images.contentful.com/kkzerdgg97de/fljNgElDryekcYAWIKMs8/43833ce1882403e503f74263fd402f95/meatsmith-3.jpg"
 - sys:
     id: 5cNGBGSdAkA8youWkcEQkg
   sectionTitle: vanguard_vintners-content-4
@@ -268,6 +219,55 @@ contentImageModule:
     It’s as if we have been duped into believing our fish from nearby are somewhat under par. Mackerel is the perfect example. There is a public misconception that mackerel is a dark, oily and ‘fishy’ tasting fish. This is true if you live in Victoria or Tassie because your local blue mackerel is like that (very similar to the atlantic variety of the northern hemisphere). Mackerel from Queensland, however, (grey, school, spotted and spanish) are white fleshed and mild in taste. Sometimes these kinds of false understandings make me wonder if there is in fact some kind of conspiracy going on.
 
     The truth is that in Queensland we have countless excellent eating fish: mackerels, wahoo, cobia, bonito, mulloway and threadfin are just a few. There are even species of mullet that are eminently suitable for even the very best of menus. By and large, however, these fish are caught by local small-scale fishermen and that usually represents a more sustainable outcome. To me our current preferences for ‘foreign’ fish represent some kind of cultural cringe where we believe our own local fish are somehow not ever as good as everyone else’s.
+- sys:
+    id: 5gcGX0nmjSouGKSmEAcACS
+  sectionTitle: vanguard-vintners-content-5
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Gareth came to winemaking in 2012, making one barrel that became three the following vintage and then dozens the successive years. He previously worked as a research scientist in marine biology focusing on seaweed diversity. Now he farms his own grapes and makes the wine, with wife Rainbo and brother-in-law Kyatt. “I think I am becoming better at being able to let go and feel the wines and let them lead me,” Gareth muses. “This is becoming increasingly important on a personal level, rather than trying to harness or control something into something it’s not—or what people expect wine to taste like from my region or variety.”
+
+    James says that many winemakers are control freaks, but in the natural wine game, wine is just a small part of a greater philosophy. “We’ve had to ask a lot of questions about the processes that we do to get the results we get with our wine, and we all have an individual expression that can’t be replicated. It’s about learning to let go, and understanding that as much as you wish to control wine or life, you can’t. This has come from a history where we’re all taught to plan for the future, and we’ve had to unlearn that and just accept.”
+
+    These creative, fringe thinkers have somehow been drawn to this sub-region and this style of winemaking, and managed to assemble a cohesive cluster. They’re all individually aiming for a harmonious existence in how they live on the land they occupy and with the people surrounding them. But it’s not all chill commune vibes either. “It’s a very interesting community because there are a lot of strong personalities. There’s the potential for conflict, but we’ve all surmounted that very openly,” James admits. There’s a greater ethos that unites them. They keep each other on their toes as to not fall complacent. But they also rely on each other for emotional and physical support, reassurance that they’re doing a good thing, that what they’re tasting is good and true, and a little help back-handing those doubts and anxieties away. Gareth says the high concentration of makers in the Basket Range makes a huge difference. “We’re pretty critical of each other, but in a good way. We push each other a lot. Without each other, maybe none of this would have been possible. Winemaking and farming equipment is very expensive, so being able to lend is awesome. Also, being able to ask a range of people for winemaking advice is just as important. Though having friends next door, with open doors, is probably the most important.”
+
+    The interaction between this Basket Range outfit is almost like an incubator for a greater reconciled community on a national and global scale. “Because it’s becoming more and more diverse, I think one of the biggest challenges for Australia is people getting on together and drinking together. And they don’t need to drink the same wine or have the same political or social beliefs, but it’s quite nice to just say, ‘We don’t agree on anything, but I can still drink and eat with you. It’ll make the world a more pleasant place’. Maybe that’s what makes our region a little more advanced, that we’re always getting along and finding a way to work through differences—which are quite large because we’re all emotionally involved in what we do,” Anton reflects.
+
+    In this mode of being and making, where nothing is secure, risk is high, and uncertainty is a constant, these utopian thinkers and dreamers are pushing the boundaries of winemaking, and life, as it currently stands, into unimaginable futures. “None of us are really making wine for the market,” Gareth says, “We’re just doing what we believe in, and we’ll spend our whole lives doing it.”
+  image:
+    title: vanguard-vintners-11
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/4vVnwyK51SSIKOkUaQMEMK/f868107eb59eb298d2f7baeaee00ed56/vanguard-vintners-11.jpg"
+- sys:
+    id: 3zXqGzLTNuAQWo6wi4G2Y6
+  sectionTitle: meatsmith-content-4
+  moduleType: copyImage
+  copyPosition: true
+  copy: |-
+    Meanwhile, Stuart and I set about researching the requirements for an on-farm boning room. Those requirements are fairly stringent, and largely obscured by intentionally vague standards in the federal Meat Industry Act, which are then enforced by state regulators (PrimeSafe in the case of Victoria). Our local council really had no idea whether we could set up a boning room within the farming zone—it turned out of course that we could. Other small producers said they’d thought about doing the same, but felt overwhelmed at the regulations and the expense of building a facility.
+
+    To prepare for the building of this room, as we did when we were preparing to become pig farmers a mere year and a half earlier, we hit the road and spoke to the experts—butchers across Victoria, New South Wales and South Australia. While their own grasp of the standards was sometimes sketchy, they were running legal, licensed facilities, so we figured they must have some idea of what was allowed and what wasn’t, even if they weren’t based on a farm.
+
+    There were a lot of inconsistencies. Our research uncovered differences in the interpretation and enforcement across state jurisdictions, as well as a lot of confusion amongst butchers about just what is required and why. We also learnt that supermarkets and other retailers, for whom meat is less than 50 per cent of their sales, are regulated by the Environmental Health Officers at their local councils, not the meat regulators in each state. So although the largely unskilled ‘butchers’—or box cutters as we call them (a reflection of the type of products they usually cut)—working in the duopoly are managing the same risks in terms of safe handling and temperature control, they are not subject to the same level of scrutiny as butcher’s shops.
+
+    There has been an enquiry into these inconsistencies and the need for greater transparency in the regulators’ dealings with butchers, but it appears that the government has little appetite for reform in regulation of the meat industry. In short, that meant we worked out the requirements as best we could ourselves. We were left to our own devices with the generous advice of a number of excellent butchers in Australia, as well as with advice and support from the Australian Meat Industry Council (AMIC)—the peak body for butchers and abattoirs.
+  image:
+    title: meatsmith-3
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/fljNgElDryekcYAWIKMs8/43833ce1882403e503f74263fd402f95/meatsmith-3.jpg"
+- sys:
+    id: t8P3vDQwLIuisUcS660Um
+  sectionTitle: vanguard_vintners-content-2
+  moduleType: copyImage
+  copyPosition: false
+  copy: |-
+    Russian-born Alex met his wife Galit while living in Israel. They decided to move to Australia so Alex could chase his fledgling passion for making wine, choosing the Basket Range because the only Australian they knew, James, was based there. Alex took his background in biophysics and tacked on an honours degree in oenology from the University of Adelaide, before landing a job at the Australian Wine Research Institute, where he’s currently looking into the chemical drivers of wine texture. He came at winemaking expecting to make conventional wine. “Very little of what we plan actually turns out the way we imagined it. But I’ve realised that if things don’t work out exactly the way they were planned, it’s not necessarily a bad thing. When we came to South Australia, I really didn’t know that natural wine existed. I always wanted to make exciting wine, because that’s what I felt wine was about,” he says. But his perception of what it means for wine to be exciting has shifted over the years. While The Other Right wines appear vibrant and playful, his scientific rearing has contributed to shaping his signature style. “If you want to break the rules, or even bend them, it’s worth knowing them. In certain ways, knowing the rules can make it challenging to bend them because you know you’re going against something. But given a bit of practice, you get used to it. And that is where we find excitement now.”
+
+    Anton’s natural modus operandi is to question and break rules and systems. He too received first class honours at the University of Adelaide and made wine across various levels of convention and intervention for others in Germany, New Zealand and the United States. But he returned to the hills in 2002 and started experimenting. “I learnt so much at university and I’m so thankful for what I learnt, and I understand the concept, but it didn’t sit well with me. I couldn’t really find the answers in my study. So I went about disproving all the things that I was uncomfortable with. I didn’t really do it to prove a point; I just wanted to see what was possible. Once I started doing it, there was a little bit of backlash by some people, and a little bit of a following from others. Some that thought it was great to have freedom, and some that publicly berated what I was doing.” Anton is conscious that the holistic approach to wine and lifestyle that is a common thread amongst the Basket Range motley crew may induce a perception of hippy winemakers nesting in the hills, growing their own produce and living in accordance with nature’s rhythms. But these “crazy cats”, as Gareth dubs them, are at their core scientists and philosophers, critically questioning each other’s motivations and their liquid creations.
+  image:
+    title: vanguard-vintners-4
+    description: 
+    url: "//images.contentful.com/kkzerdgg97de/5BgztL3sf6wqg2g0qqAwM8/eb341960028861f49912f90655ac3ceb/vanguard-vintners-4.jpg"
 - sys:
     id: 57e71pEuxGoqqmOSaYgomu
   sectionTitle: wtf-content-2
@@ -652,7 +652,7 @@ postContainer:
       id: 5gcGX0nmjSouGKSmEAcACS
     sectionTitle: vanguard-vintners-content-5
     moduleType: copyImage
-    copyPosition: true
+    copyPosition: false
     copy: |-
       Gareth came to winemaking in 2012, making one barrel that became three the following vintage and then dozens the successive years. He previously worked as a research scientist in marine biology focusing on seaweed diversity. Now he farms his own grapes and makes the wine, with wife Rainbo and brother-in-law Kyatt. “I think I am becoming better at being able to let go and feel the wines and let them lead me,” Gareth muses. “This is becoming increasingly important on a personal level, rather than trying to harness or control something into something it’s not—or what people expect wine to taste like from my region or variety.”
 
