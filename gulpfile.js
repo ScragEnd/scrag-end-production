@@ -17,11 +17,6 @@ var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-
-// gulp.task('default', ['data'], function(){
-//   console.log('Retrieved contenful entries.');
-// });
-
 /**
  * Build the Jekyll Site
  */
