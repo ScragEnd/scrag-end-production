@@ -186,11 +186,11 @@ section.story-hero {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    &.content-image-block-inner--left {
+    &.content-image-block-inner--true {
       flex-direction: row;
     }
 
-    &.content-image-block-inner--right {
+    &.content-image-block-inner--false {
       flex-direction: row-reverse;
     }
 
