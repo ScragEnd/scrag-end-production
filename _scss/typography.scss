@@ -209,6 +209,10 @@ a.text-link.previous {
 a.text-link.previous, a.text-link.next {
 	&:before {
 		top: 9px;
+
+		@include media("<small") {
+	    content: none;
+	  }
 	}
 }
 

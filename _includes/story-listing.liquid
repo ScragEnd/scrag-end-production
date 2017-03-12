@@ -7,7 +7,7 @@
           <li><a href="#" data-title="all" data-color="#FFFBF9">All Stories</a></li>
           <li><a href="#" data-color="#FCEE9C">Issue Zero</a></li>
           <li><a href="#" data-color="#C1E3CF">Issue One</a></li>
-          <li><a href="#" data-color="">Online</a></li>
+          <li><a href="#" data-color="#FFFBF9">Online</a></li>
         </ul>
       </div>
     </div>
@@ -24,7 +24,7 @@
               <a href="{{ story.title | datapage_url: 'stories' }}"><h3>{{ story.title }}</h3></a>
               <span class="meta">
 
-                <span class="issue">Issue {{ story.issue | capitalize }}</span> —
+                <span class="issue">{% if story.issue !=  'online' %}Issue {{ story.issue | capitalize }}{% else %}Online{% endif %}</span>{% if story.issue == 'online'%} Exclusive{% endif%} —
 
                   {% assign contribID = story.contributors[0].sys.id  %}
                   {% for contributor in site.data.contentful.spaces.stories.contributors %}

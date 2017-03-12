@@ -6,6 +6,8 @@ init = function(){
 
   scrollAnimation();
 
+	smoothScroll.init();
+
 	//Check if we're mobile or not, and only apply animations on desktop
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	  	isMobile = false;
@@ -90,7 +92,6 @@ init = function(){
 	});
 
 
-
 	// Throttle Resize events
   var resizeTimer;
 
@@ -138,23 +139,21 @@ init = function(){
   });
 
 
-
-
-	// console.log('find closest li', $(nextArticle).data('title') );
-
-
 	setInterval(function(){
 
 		// Find the next title after the one that is active
 
 		if ($(".article-title-container li a.active").closest('li').next().length == 0) {
-			var nextArticle = $(".article-title-container li").first().find('a')
+			var nextArticle = $(".article-title-container li").first().find('a');
+			var nextArticleMobile = $(".article-title-container.mobile li").first().find('a');
+
 		} else {
-			var nextArticle = $(".article-title-container li a.active").closest('li').next().find('a')
+			var nextArticle = $(".article-title-container li a.active").closest('li').next().find('a');
+			var nextArticleMobile = $(".article-title-container.mobile li a.active").closest('li').next().find('a');
 		}
 
 		// Get the title of the next article
-		var nextArticleTitle = $(nextArticle).data('title')
+		var nextArticleTitle = $(nextArticle).data('title');
 
 		// Remove active class from active image
 		$(".single-article-image" + ".active").removeClass('active');
@@ -167,6 +166,9 @@ init = function(){
 
 		// Add active class to matching article
 		$(nextArticle).addClass('active');
+
+		// Add active class to matching article on mobile
+		$(nextArticleMobile).addClass('active');
 
 	}, 5000)
 

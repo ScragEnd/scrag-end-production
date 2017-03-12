@@ -61,13 +61,10 @@ section.story-hero {
     background-repeat: no-repeat;
     overflow: hidden;
     background-attachment: scroll;
-    background-color: currentColor;
-    mix-blend-mode: multiply;
-    opacity: 0.75;
 
     &:after {
       position: absolute;
-      // content:"";
+      content:"";
       top:0;
       left:0;
       width:100%;

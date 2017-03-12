@@ -27,7 +27,13 @@ categories: [story]
                 <div class="spacer"></div>
                 <h1 class="display">{{page.title}}</h1>
                 <h5 class="story-meta">
-                  {% if page.issue %} Originally published in Issue {{ page.issue | capitalize }} {% else %} Published {{ page.date-published }} {% endif %} — {{ page.readTime }} minute read
+                  {% if page.issue != 'online' %}
+                  Originally published in Issue {{ page.issue | capitalize }}
+                  {% else %}
+                  Originally published online
+                  {% endif %}
+                  — {{ page.readTime }} minute read
+
                 </h5>
                 <h4 class="byline">
 
@@ -51,7 +57,7 @@ categories: [story]
             </div>
           </div>
           <div class="story-feature-image {{ page.featureImageOrientation }} container">
-            <div class="feature-image {% if page.featureImageOrientation == false %} col-lg-6 offset-lg-5 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
+            <div class="feature-image {% if page.featureImageOrientation == false %} col-lg-5 offset-lg-6 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
               <img src="https:{{page.featureImage.url}}" alt="page.featureImage.title" />
             </div>
           </div>
@@ -91,7 +97,7 @@ categories: [story]
 
       </main>
 
-      {% if page.issue %}
+      {% if page.issue != 'online' %}
         {% include purchase-issue.liquid %}
       {% endif %}
 
