@@ -1,0 +1,15 @@
+{% capture posturl %}
+  {{site.url}}{{page.url}}
+{% endcapture %}
+
+<section class="container share-story vertical-spaced">
+  <div class="share-story-inner row">
+    <ul>
+      <li class="title">Share:</li>
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ posturl | cgi_escape }}">Facebook</a>,
+      </li>
+      <li><a href="https://twitter.com/intent/tweet/?text={{page.title}}&url={{ posturl | cgi_escape }}&via=Scrag_end&hashtags=scragend">Twitter</a></li>
+    </ul>
+  </div>
+</section>
