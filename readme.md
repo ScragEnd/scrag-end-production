@@ -22,3 +22,7 @@ Pushing code to 'Master' branch will trigger Codeship to build the site and depl
 ## Owner
 
 [Robert Koch](rokocodesign.com)
+
+
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4fa9176f-a949-4587-aad6-237bc0e67d37/deploy-status)](https://app.netlify.com/sites/scragend/deploys)
