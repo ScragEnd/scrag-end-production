@@ -17,12 +17,18 @@ To run locally
 gulp
 ```
 
-Pushing code to 'Master' branch will trigger Codeship to build the site and deploy to the Github hosting repo.
+To build
+```
+gulp build
+```
 
-## Owner
+Pushing code to 'Master' branch will trigger Netlify to build and deploy the site.
 
-[Robert Koch](rokocodesign.com)
+## Owners
 
+Björn Rust
+Robert Koch
 
+## Build Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa9176f-a949-4587-aad6-237bc0e67d37/deploy-status)](https://app.netlify.com/sites/scragend/deploys)
