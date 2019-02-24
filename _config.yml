@@ -28,7 +28,7 @@ markdown: kramdown
 # sass:
 #   sass_dir: /css
 
-gems:
+plugins:
   - jekyll-sitemap
 
 collections:
