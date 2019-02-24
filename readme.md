@@ -26,8 +26,7 @@ Pushing code to 'Master' branch will trigger Netlify to build and deploy the sit
 
 ## Owners
 
-Björn Rust
-Robert Koch
+Björn Rust & Robert Koch.
 
 ## Build Status
 
