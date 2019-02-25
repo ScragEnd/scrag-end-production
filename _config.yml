@@ -70,11 +70,12 @@ contentful:
 
 
 # Settings for Data Page Generator
-page_gen-dirs: true
 page_gen:
-  - data: contentful.spaces.stories.postContainer
-    name: title
-    index_files: true
-    template: stories
-    dir: stories
-    extension: html
+  - index_files: true #<<true or false>
+    data: contentful.spaces.stories.postContainer #<<name of the data>>
+    template: stories #<<name of the template to use to generate the page>>
+    name: title #<<field used to generate the filename>>
+    dir: stories #<<directory in which files are to be generated>>
+    extension: html #<<extension used to generate the filename>>
+#    filter: #<<property to filter data records by>>
+#  - ...
