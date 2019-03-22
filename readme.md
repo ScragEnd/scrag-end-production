@@ -8,7 +8,7 @@ Ensure Ruby, Bundler (gem), Node.js and npm are installed.
 
 To install
 ```
-bundle
+bundle update
 npm install
 ```
 

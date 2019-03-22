@@ -7,17 +7,18 @@ categories: [story]
 
   {% include head.html %}
 
-  <body role="main" {% if page.coverImage %} class="cover-story" {% endif %}>
+  <body role="main" {% if page.cover_image %} class="cover-story" {% endif %}>
     {% include header.html %}
+
     <section id="content" class="page-wrapper">
 
       <div class="story-hero-container">
 
         <section class="story-hero {% if page.issue %}issue-{{ page.issue}} {% endif %}">
 
-          {% if page.coverImage.title %}
+          {% if page.cover_image.title %}
             <div class="cover-container">
-              <div class="cover-image" style="background-image: url('https:{{page.coverImage.url}}')" data-bottom="transform:translate3d(0px, 0%, 0px);" data-top-bottom="transform:translate3d(0px, 15%, 0px);"></div>
+              <div class="cover-image" style="background-image: url('https:{{page.cover_image.url}}')" data-bottom="transform:translate3d(0px, 0%, 0px);" data-top-bottom="transform:translate3d(0px, 15%, 0px);"></div>
             </div>
           {% endif %}
 
@@ -32,18 +33,18 @@ categories: [story]
                   {% else %}
                   Originally published online
                   {% endif %}
-                  — {{ page.readTime }} minute read
+                  — {{ page.read_time }} minute read
 
                 </h5>
                 <h4 class="byline">
 
                   {% for item in page.contributors %}
-                    {{ item.type }}
+                   
                     {% assign contribID = item.sys.id  %}
 
                     {% for contributor in site.data.contentful.spaces.stories.contributors %}
 
-                      {% if contributor.sys.id ==  contribID %}
+                      {% if contributor.sys.id == contribID %}
                         <span>
                           {{ contributor.type }} by {{ contributor.name}} {% if contributor.occupation %} — {{ contributor.occupation }} {% endif %}
                         </span>
@@ -56,9 +57,9 @@ categories: [story]
                 </h4>
             </div>
           </div>
-          <div class="story-feature-image {{ page.featureImageOrientation }} container">
-            <div class="feature-image {% if page.featureImageOrientation == false %} col-lg-5 offset-lg-6 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
-              <img src="https:{{page.featureImage.url}}" alt="page.featureImage.title" />
+          <div class="story-feature-image {{ page.feature_image_orientation }} container">
+            <div class="feature-image {% if page.feature_image_orientation == false %} col-lg-5 offset-lg-6 {% else %} col-lg-4 offset-lg-7 {% endif %}" >
+              <img src="https:{{page.feature_image.url}}" alt="page.feature_image.title" />
             </div>
           </div>
         </section>
@@ -75,21 +76,21 @@ categories: [story]
 
       <main class="story-body">
 
-        {% for module in page.storyModules %}
+        {% for module in page.story_modules %}
 
-          {% if module.moduleType == 'copyImage' %}
+          {% if module.module_type == 'copyImage' %}
             {% include content-image-module.liquid %}
           {% endif %}
 
-          {% if module.moduleType == 'wideImage' %}
+          {% if module.module_type == 'wideImage' %}
             {% include wide-image-module.liquid %}
           {% endif %}
 
-          {% if module.moduleType == 'quote' %}
+          {% if module.module_type == 'quote' %}
             {% include quote-module.liquid %}
           {% endif %}
 
-          {% if module.moduleType == 'portraitImage' %}
+          {% if module.module_type == 'portraitImage' %}
             {% include portrait-module.liquid %}
           {% endif %}
 

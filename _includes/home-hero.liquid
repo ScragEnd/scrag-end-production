@@ -4,7 +4,7 @@
       <ul class="article-title-container animation-set">
 
         {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
-          {% if story.homepageFeature == true %}
+          {% if story.homepage_feature == true %}
             <li><a href="{{ story.title | datapage_url: 'stories' }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
           {% endif %}
         {% endfor %}
@@ -17,8 +17,8 @@
     <div class="article-images-container">
 
       {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
-        {% if story.homepageFeature == true %}
-          <div class="single-article-image {{ story.title | slugify }}" style="background-image: url('https:{{ story.featureImage.url }}')"></div>
+        {% if story.homepage_feature == true %}
+          <div class="single-article-image {{ story.title | slugify }}" style="background-image: url('https:{{ story.feature_image.url }}')"></div>
         {% endif %}
       {% endfor %}
 
@@ -26,7 +26,7 @@
     <div class="article-container mobile animation-set">
       <ul class="article-title-container mobile animated animated--no-slide-up" data-delay="100">
         {% for story in site.data.contentful.spaces.stories.postContainer limit:4 %}
-          {% if story.homepageFeature == true %}
+          {% if story.homepage_feature == true %}
             <li><a href="{{ story.title | datapage_url: 'stories' }}" class="article-title animated animated--no-slide-up" data-delay="100" data-title="{{ story.title | slugify }}"><h2>{{ story.title }}</h2></a></li>
           {% endif %}
         {% endfor %}
