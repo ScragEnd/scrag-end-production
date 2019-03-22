@@ -15,13 +15,13 @@
       {% for story in site.data.contentful.spaces.stories.postContainer %}
         <figure class="article-component col-xs-12 col-md-6 col-lg-4">
           <div class="image-container">
-            <a href="{{ story.title | datapage_url: 'stories' }}">
+            <a href="{{ story.title | datapage_url: '/stories' }}">
               <img src="https:{{story.thumbnail.url}}" alt="{{ story.thumbnail.title}}" />
             </a>
           </div>
           <div class="article-info">
             <div class="header">
-              <a href="{{ story.title | datapage_url: 'stories' }}"><h3>{{ story.title }}</h3></a>
+              <a href="{{ story.title | datapage_url: '/stories' }}"><h3>{{ story.title }}</h3></a>
               <span class="meta">
 
                 <span class="issue">{% if story.issue !=  'online' %}Issue {{ story.issue | capitalize }}{% else %}Online{% endif %}</span>{% if story.issue == 'online'%} Exclusive{% endif%} —
