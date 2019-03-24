@@ -13,14 +13,14 @@
 
       <figure class="article-component col-md-8 offset-md-2 col-lg-6 offset-lg-3 animated animated--slide-up">
         <div class="image-container">
-          <a href="{{ story.title | datapage_url: 'stories' }}">
+          <a href="{{ story.title | datapage_url: '/stories' }}">
             <img src="https:{{story.thumbnail.url}}" alt="{{ story.thumbnail.title}}" />
           </a>
         </div>
         <div class="article-info">
           <div class="header">
 
-            <a href="{{ story.title | datapage_url: 'stories' }}"><h3>{{ story.title }}</h3></a>
+            <a href="{{ story.title | datapage_url: '/stories' }}"><h3>{{ story.title }}</h3></a>
             <span class="meta">
 
               {% if story.issue !=  'online' %}
@@ -38,12 +38,12 @@
                   {% endif %}
                 {% endfor %}
 
-               — {{ story.readTime }} minute read</span>
+               — {{ story.read_time }} minute read</span>
 
           </div>
           <div class="excerpt">
             <p class="small">{{ story.excerpt | truncatewords: 40 }}</p>
-            <a href="{{ story.title | datapage_url: 'stories' }}" class="secondary-link">Continue reading</a>
+            <a href="{{ story.title | datapage_url: '/stories' }}" class="secondary-link">Continue reading</a>
           </div>
         </div>
       </figure>

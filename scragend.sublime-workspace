@@ -1,0 +1,486 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"gallery"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"m",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"l",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 3103,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Github: Create Pull Request"
+			],
+			[
+				"pag",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ever",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"type",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bjornrust/scrag-end-production",
+		"/Users/bjornrust/scrag-end-production/_data",
+		"/Users/bjornrust/scrag-end-production/_data/contentful",
+		"/Users/bjornrust/scrag-end-production/_data/contentful/spaces",
+		"/Users/bjornrust/scrag-end-production/_includes",
+		"/Users/bjornrust/scrag-end-production/_layouts",
+		"/Users/bjornrust/scrag-end-production/_scss"
+	],
+	"file_history":
+	[
+		"/Users/bjornrust/scrag-end-production/gulpfile.js",
+		"/Users/bjornrust/scrag-end-production/_includes/footer.html",
+		"/Users/bjornrust/scrag-end-production/_scss/footer.scss",
+		"/Users/bjornrust/scrag-end-production/Gemfile.lock",
+		"/Users/bjornrust/scrag-end-production/_data/stockists.yml",
+		"/Users/bjornrust/scrag-end-production/_data/issues.yml",
+		"/private/var/folders/v9/yv415x890fb4tykrnxg_ny0h0000gn/T/1D8CBD53-9279-4372-8C2B-70E86B4275E2/readme.md",
+		"/Users/bjornrust/Desktop/not many tools in the cloud",
+		"/Users/bjornrust/Downloads/aurecon-core.css",
+		"/Users/bjornrust/Dropbox/projects/personal-words/!-workplace_wishlist.md",
+		"/Users/bjornrust/Desktop/Revue_export_subscribed.csv",
+		"/Users/bjornrust/Dropbox/projects/personal-words/words.sublime-project",
+		"/Users/bjornrust/Dropbox/projects/personal-words/reporting_fives-scratch.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/!-quotes.md",
+		"/Users/bjornrust/Desktop/!-quotes.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlabs-reflections.md",
+		"/Users/bjornrust/Desktop/test.html",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_methodology-20180823.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_methodology-scratch.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_pitch-20180823.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_methodology-20180802.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_wallet-20180809.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/oxfam-oxlab_wallet-20180726.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/moddd-comm_2083-assignment_2.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/moddd-huso_2378-assignment_2.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/!-email_filters.sieve",
+		"/Users/bjornrust/Dropbox/projects/personal-words/hap-p30321-communication.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/hap-p30321-communication-scratch.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/20180705-notex-petermac_studio.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/hap-p30321-assignment_1.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/hap-p30321-assignment_1-scratch.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/reporting_fives-5.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/!-gestaltivist_reboot.md",
+		"/Users/bjornrust/Dropbox/projects/personal-web/development/index.html",
+		"/Users/bjornrust/Dropbox/projects/personal-words/20170501-moddd-personal_statement.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/20170501-notex-moddd.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/!-gestaltivist_reboot",
+		"/Users/bjornrust/Dropbox/projects/squint_opera-words/20170427-notex-names.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/lp-jounral_stories.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/lp-journal_name.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/Oidious factoid.md",
+		"/Users/bjornrust/Dropbox/projects/personal-words/20161128-scriptx-yaroomba_vo.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/words.sublime-project",
+		"/Users/bjorn/Dropbox/projects/personal-words/20160911-comunicationx-footnotes.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/2016-09-20 08.24.45.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/test2.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/test.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/20160924-notex-test.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/20160924-notex-.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/codex-launch_sublime.md",
+		"/Users/bjorn/Dropbox (Personal)/public/posts.xml",
+		"/Volumes/projects/unsorted/appdotnet-data-bjornrust-1466489194-posts.json",
+		"/Users/bjorn/Dropbox/projects/personal-words/20120201-the_sweet_setup.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/squintopera/squintx-environmental_policy.md",
+		"/Users/bjorn/Dropbox/projects/personal-words/squintopera/20160715-scriptx-pv_voiceover_narration.md",
+		"/Users/bjorn/Dropbox (Personal)/projects/words/words.sublime-project",
+		"/Users/bjorn/Dropbox (Personal)/orgs/autogenica/README.md",
+		"/Users/bjorn/Dropbox (Personal)/words/20160619-scragend-environmental.md",
+		"/Users/bjorn/Dropbox (Personal)/words/!-quotes.md",
+		"/Users/bjorn/Dropbox (Personal)/words/!-linsey.md",
+		"/Users/bjorn/Dropbox (Personal)/words/!-to_do.md",
+		"/Users/bjorn/Dropbox (Personal)/words/squintx-environmental_policy.md",
+		"/Users/bjorn/Dropbox (Personal)/words/codex-iphone_menus.md",
+		"/Users/bjorn/Dropbox (Personal)/words/!-try_list.md",
+		"/Users/bjorn/Dropbox (Personal)/words/__words.md",
+		"/Users/bjorn/Dropbox (Personal)/words/words.sublime-project",
+		"/Users/bjorn/Dropbox (Personal)/words/codex-show_all.md",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/bjorn/Dropbox (Personal)/words/codex-rsync.md",
+		"/Users/bjorn/Dropbox (Personal)/words/20160716-notex-.md",
+		"/Users/bjorn/Users/bjorn/Dropbox (Personal)/words/20160716-codex-launch_sublime.md",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/appdotnet-data-bjornrust-1466489194/appdotnet-data-bjornrust-1466489194-posts.json",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/appdotnet-data-bjornrust-1466489194/appdotnet-data-bjornrust-1466489194-user.json",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/appdotnet-data-bjornrust-1466489194/appdotnet-data-bjornrust-1466489194-messages.json",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/appdotnet-data-bjornrust-1466489194/appdotnet-data-bjornrust-1466489194-channels.json",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/international checkout",
+		"/Users/bjorn/Dropbox (Personal)/projects/words/projects/monash_iteration.md",
+		"/Users/bjorn/Desktop/_project/README.md",
+		"/Users/bjorn/Dropbox (Personal)/words/_try_list.md",
+		"/Users/bjorn/Dropbox (Personal)/projects/words/journal/20160410-journalx-065830.md..md",
+		"/Users/bjorn/Dropbox (Personal)/projects/words/journal/20160421-2016-04-20-journalx-20.04.14.md",
+		"/Volumes/BJORNS/squint/index.html",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/_quotes.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/web/sites/squint/style.css",
+		"/Users/bjorn/Dropbox (Personal)/creative/web/sites/squint/index.html",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160521-notex-scragend_panel.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/20160602-meetx-auecon.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/web/sites/bjornrust_com/bjornrust_2015/style.css",
+		"/Users/bjorn/Dropbox (Personal)/creative/web/sites/bjornrust_com/bjornrust_2015/index.html",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/journal/2016-05-26 05.38.41.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160524-notex-scragend_biography.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/words.sublime-project",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/bjorn/Dropbox (Personal)/git/travel/serbia/belgrade.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/biography.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20110824-geek_zine_profile.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/education/hillbrook/history/a-history_report.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/education/qut/photo_submission/bio.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/media/biography.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160123-2016-01-23 16.09.00.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/_to-do.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160128-merge_accounts.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20130127-gamestoplaybeforeyougrowup.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/_try_list.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/_to-do",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160204-2016-02-04 13.05.17.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160205-2016-02-05 13.25.53.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/20160521-scragend-panel.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/20160511-workx-ug_newcastle.md",
+		"/Users/bjorn/Dropbox (Personal)/unsorted/scripts/fastmail.sieve",
+		"/Users/bjorn/Desktop/index.html",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/_linsey.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/20160511-workx-marketing.md",
+		"/Users/bjorn/Dropbox (Personal)/creative/words/notes/20160502-workx-aurecon.md",
+		"/Users/bjorn/Dropbox (Personal)/git/travel/spain/barcelona.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Notes/20160505-meetx-mlc.md",
+		"/Users/bjorn/Dropbox (Personal)/git/travel/germany/berlin.md",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/untitled",
+		"/Users/bjorn/Dropbox (Personal)/git/travel/README.md",
+		"/Users/bjorn/Dropbox (Personal)/git/talks/20160503-talkx-resonate2016.md",
+		"/Users/bjorn/Dropbox (Personal)/git/README.md",
+		"/Users/bjorn/Dropbox (Personal)/git/diaspora/diaspora_rules.md",
+		"/Users/bjorn/Library/Application Support/Sublime Text 3/Packages/User/Github Tools.sublime-settings",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/Words.sublime-project",
+		"/Users/bjorn/Dropbox (Personal)/Creative/Words/notes/20160411-notex-wear_your_tech.md"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"support_us",
+			"donate"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3042,
+								3047
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 776.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 106.0
+	},
+	"pinned_build_system": "",
+	"project": "scragend.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"moddd",
+				"moddd-comm_2083-assignment_2.md"
+			],
+			[
+				"usd",
+				"moddd-huso_2378-assignment_2.md"
+			],
+			[
+				"thesw",
+				"20120201-the_sweet_setup.md"
+			],
+			[
+				"",
+				"words/education/hillbrook/history/a-history_report.md"
+			],
+			[
+				"bio",
+				"words/education/qut/photo_submission/bio.md"
+			],
+			[
+				"try",
+				"words/notes/20160123-_try_list.md"
+			],
+			[
+				"mgs",
+				"Notes/20160229-Workx-MGS_BrainDump.md"
+			],
+			[
+				"un",
+				"Notes/20160125-Workx-Unbuilt.md"
+			],
+			[
+				"thesweet",
+				"Notes/The_Sweet_Setup.md"
+			],
+			[
+				"d",
+				"Notes/Design_Inovation.md"
+			],
+			[
+				"thes",
+				"Notes/The_Sweet_Setup.md"
+			],
+			[
+				"unb",
+				"Notes/20160125-Workx-Unbuilt.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 319.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

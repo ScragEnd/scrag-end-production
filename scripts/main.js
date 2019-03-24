@@ -6,15 +6,13 @@ init = function(){
 
   scrollAnimation();
 
-	smoothScroll.init();
-
 	//Check if we're mobile or not, and only apply animations on desktop
 	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
 	  	isMobile = false;
 	  	$('body').addClass('not-mobile');
-	    s = skrollr.init({
+	    var s = skrollr.init({
 	        forceHeight: false,
-          smoothScrolling: true
+        	smoothScrolling: true
 	    });
 
 	} else{
@@ -86,8 +84,8 @@ init = function(){
 
 	//Scroll To Top
 	$('a.top-scroll').on('click',function (e) {
+			$('html,body').stop().animate({ scrollTop: 0 }, 700);
 			e.preventDefault();
-			smoothScroll.animateScroll( 0 );
 			return false;
 	});
 

@@ -106,19 +106,3 @@ gulp.task('compress', ['jekyll-build', 'sass'], function() {
  */
 gulp.task('default', ['contentful', 'browser-sync', 'watch']);
 gulp.task('build', ['contentful', 'jekyll-build', 'sass', 'compress']);
-
-/**
- * Deploy to Github Pages task, build the site and deploys
- */
- gulp.task('deploy', ['build'], function() {
-
-   gulp.src(['CNAME'])
-     .pipe(gulp.dest('_site'))
-
-   return gulp.src(['./_site/**/*', './_site/CNAME'])
-     .pipe(ghPages({
-       remoteUrl: 'git@github.com:ScragEnd/scragend.github.io.git',
-       branch: 'master',
-       message: 'Successfully deployed'
-     }));
- });

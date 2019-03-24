@@ -1,3 +1,4 @@
+# coding: utf-8
 # Generate pages from individual records in yml files
 # (c) 2014-2016 Adolfo Villafiorita
 # Distributed under the conditions of the MIT License
@@ -10,7 +11,10 @@ module Jekyll
       if(name.is_a? Integer)
         return name.to_s
       end
-      return name.downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
+      return name.tr(
+  "ÀÁÂÃÄÅàáâãäåĀāĂăĄąÇçĆćĈĉĊċČčÐðĎďĐđÈÉÊËèéêëĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħÌÍÎÏìíîïĨĩĪīĬĭĮįİıĴĵĶķĸĹĺĻļĽľĿŀŁłÑñŃńŅņŇňŉŊŋÑñÒÓÔÕÖØòóôõöøŌōŎŏŐőŔŕŖŗŘřŚśŜŝŞşŠšſŢţŤťŦŧÙÚÛÜùúûüŨũŪūŬŭŮůŰűŲųŴŵÝýÿŶŷŸŹźŻżŽž",
+  "AAAAAAaaaaaaAaAaAaCcCcCcCcCcDdDdDdEEEEeeeeEeEeEeEeEeGgGgGgGgHhHhIIIIiiiiIiIiIiIiIiJjKkkLlLlLlLlLlNnNnNnNnnNnNnOOOOOOooooooOoOoOoRrRrRrSsSsSsSssTtTtTtUUUUuuuuUuUuUuUuUuUuWwYyyYyYZzZzZz"
+).downcase.strip.gsub(' ', '-').gsub(/[^\w.-]/, '')
     end
   end
 
@@ -35,25 +39,21 @@ module Jekyll
       #
       # the value of these variables changes according to whether we
       # want to generate named folders or not
-
-      # debug
-      # puts data
-      # puts name
-      filename = sanitize_filename(data[name]).to_s
-      if index_files
-        @dir = dir + (index_files ? "/" + filename + "/" : "")
-        @name =  "index" + "." + extension.to_s
+      if data[name] == nil
+        puts "error (datapage_gen). empty value for field '#{name}' in record #{data}"
       else
-        @dir = dir
-        @name = filename + "." + extension.to_s
-      end
+        filename = sanitize_filename(data[name]).to_s
 
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), template + ".html")
-      self.data['title'] = data[name]
-      # add all the information defined in _data for the current record to the
-      # current page (so that we can access it with liquid tags)
-      self.data.merge!(data)
+        @dir = dir + (index_files ? "/" + filename + "/" : "")
+        @name = (index_files ? "index" : filename) + "." + extension.to_s
+
+        self.process(@name)
+        self.read_yaml(File.join(base, '_layouts'), template + ".html")
+        self.data['title'] = data[name]
+        # add all the information defined in _data for the current record to the
+        # current page (so that we can access it with liquid tags)
+        self.data.merge!(data)
+      end
     end
   end
 
@@ -75,6 +75,7 @@ module Jekyll
       data = site.config['page_gen']
       if data
         data.each do |data_spec|
+          index_files_for_this_data = data_spec['index_files'] != nil ? data_spec['index_files'] : index_files
           template = data_spec['template'] || data_spec['data']
           name = data_spec['name']
           dir = data_spec['dir'] || data_spec['data']
@@ -91,11 +92,18 @@ module Jekyll
                 records = records[level]
               end
             end
+
+            # apply filtering conditions:
+            # - filter requires the name of a boolean field
+            # - filter_condition evals a ruby expression
+            records = records.select { |r| r[data_spec['filter']] } if data_spec['filter']
+            records = records.select { |record| eval(data_spec['filter_condition']) } if data_spec['filter_condition']
+
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, index_files, dir, record, name, template, extension)
+              site.pages << DataPage.new(site, site.source, index_files_for_this_data, dir, record, name, template, extension)
             end
           else
-            puts "error. could not find template #{template}" if not site.layouts.key? template
+            puts "error (datapage_gen). could not find template #{template}" if not site.layouts.key? template
           end
         end
       end
@@ -117,12 +125,8 @@ module Jekyll
     # Thus, if you use the `extension` feature of this plugin, you
     # need to generate the links by hand
     def datapage_url(input, dir)
-      @gen_dir = Jekyll.configuration({})['page_gen-dirs']
-      if @gen_dir then
-        "/" + dir + "/" + sanitize_filename(input)
-      else
-        dir + "/" + sanitize_filename(input) + ".html"
-      end
+      extension = Jekyll.configuration({})['page_gen-dirs'] ? '/' : '.html'
+      "#{dir}/#{sanitize_filename(input)}#{extension}"
     end
   end
 
